@@ -1,0 +1,13 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "LLMs.txt Audit Output",
+  "description": "Agentic readiness audit results and generated llms.txt definitions",
+  "type": "object",
+  "properties": {
+    "audits": {
+      "title": "Audited Domains",
+      "type": "string",
+      "template": "{{links.apiDefaultDatasetUrl}}/items?format=json"
+    }
+  }
+}

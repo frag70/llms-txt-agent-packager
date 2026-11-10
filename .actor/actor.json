@@ -1,0 +1,26 @@
+{
+  "actorSpecification": 1,
+  "name": "llms-txt-agent-packager",
+  "title": "LLMs.txt & Agentic Readability Packager (Standby API)",
+  "description": "Zero-proxy Standby API auditing website readiness for AI crawlers (GPTBot, ClaudeBot, Perplexity) and generating production-ready llms.txt & llms-full.txt files.",
+  "version": "0.1.0",
+  "usesStandbyMode": true,
+  "defaultRunMemoryMbytes": 512,
+  "input": "./INPUT_SCHEMA.json",
+  "output": "./output_schema.json",
+  "pricingInfo": {
+    "pricingModel": "PAY_PER_EVENT",
+    "events": {
+      "actor-start": {
+        "priceUsd": 0.0001,
+        "title": "Standby Request Event",
+        "description": "Base HTTP request invocation"
+      },
+      "site-audited": {
+        "priceUsd": 0.005,
+        "title": "Domain AI-Readiness Audit & llms.txt Generation",
+        "description": "Analyzed domain with AI crawler policies, token estimation, and generated llms.txt"
+      }
+    }
+  }
+}

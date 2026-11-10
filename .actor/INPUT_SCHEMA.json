@@ -1,0 +1,42 @@
+{
+  "title": "LLMs.txt & Agentic Readability Packager Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "runMode": {
+      "title": "Run Mode",
+      "type": "string",
+      "description": "Standard batch run (scrapes & saves to dataset) or continuous Standby HTTP server",
+      "editor": "select",
+      "default": "BATCH",
+      "prefill": "BATCH",
+      "enum": ["BATCH", "STANDBY_SERVER"],
+      "enumTitles": ["Batch Run (Export to Dataset)", "Standby HTTP Server (Persistent API)"]
+    },
+    "domain": {
+      "title": "Target Website Domain",
+      "type": "string",
+      "description": "Website or documentation domain to audit (e.g. stripe.com, docs.anthropic.com, supabase.com)",
+      "editor": "textfield",
+      "default": "stripe.com",
+      "prefill": "stripe.com"
+    },
+    "domains": {
+      "title": "Domain List",
+      "type": "array",
+      "description": "Optional list of domains to audit in batch (up to 25)",
+      "editor": "stringList",
+      "items": {
+        "type": "string"
+      }
+    },
+    "maxPages": {
+      "title": "Max Pages Sampled",
+      "type": "integer",
+      "description": "Maximum documentation pages to crawl for llms.txt link generation",
+      "default": 4,
+      "minimum": 1,
+      "maximum": 20
+    }
+  }
+}
