@@ -34,11 +34,14 @@ def get_token(args_token: str = None) -> str:
     return ""
 
 def api_call(endpoint: str, token: str, method: str = "GET", data: dict = None):
-    url = f"https://api.apify.com/v2/{endpoint}?token={token}"
+    url = f"https://api.apify.com/v2/{endpoint}"
     req = urllib.request.Request(
         url,
         method=method,
-        headers={"Content-Type": "application/json"}
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+        }
     )
     body = json.dumps(data).encode("utf-8") if data else None
     with urllib.request.urlopen(req, data=body, timeout=20) as resp:
