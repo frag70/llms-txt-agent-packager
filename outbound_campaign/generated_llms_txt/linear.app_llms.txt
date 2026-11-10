@@ -1,0 +1,38 @@
+# Linear – The system for product development
+
+> Purpose-built for planning and building products with AI agents.
+
+## Documentation
+
+- [Docs](https://linear.app/docs)
+- [Mcp](https://linear.app/docs/mcp)
+- [Gong](https://linear.app/docs/gong)
+- [Jira](https://linear.app/docs/jira)
+- [Scim](https://linear.app/docs/scim)
+- [Diffs](https://linear.app/docs/diffs)
+- [Figma](https://linear.app/docs/figma)
+- [Front](https://linear.app/docs/front)
+- [Inbox](https://linear.app/docs/inbox)
+- [Loops](https://linear.app/docs/loops)
+- [Pulse](https://linear.app/docs/pulse)
+- [Slack](https://linear.app/docs/slack)
+- [Teams](https://linear.app/docs/teams)
+- [Editor](https://linear.app/docs/editor)
+- [Gitlab](https://linear.app/docs/gitlab)
+
+## API reference
+
+- [Sdk](https://linear.app/developers/sdk)
+- [Graphql](https://linear.app/developers/graphql)
+
+## Product
+
+- [Pricing](https://linear.app/pricing)
+- [Features](https://linear.app/features)
+
+## Company
+
+- [About](https://linear.app/about)
+- [Careers](https://linear.app/careers)
+- [Contact](https://linear.app/contact)
+- [Customers](https://linear.app/customers)

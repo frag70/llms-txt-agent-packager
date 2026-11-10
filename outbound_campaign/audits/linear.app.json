@@ -1,0 +1,402 @@
+{
+  "domain": "linear.app",
+  "url": "https://linear.app",
+  "status": "OK",
+  "audited_at": "2026-11-10T23:45:51Z",
+  "duration_ms": 1644,
+  "agent_readiness_score": 78.0,
+  "grade": "B",
+  "dimensions": {
+    "llms_txt": {
+      "max": 30,
+      "score": 30,
+      "detail": "Valid llms.txt with 180 links."
+    },
+    "ai_crawler_access": {
+      "max": 20,
+      "score": 20.0,
+      "detail": "16/16 AI crawlers allowed."
+    },
+    "sitemap": {
+      "max": 10,
+      "score": 10,
+      "detail": "1016 URLs discovered."
+    },
+    "structured_data": {
+      "max": 10,
+      "score": 0,
+      "detail": "JSON-LD types: none"
+    },
+    "api_discoverability": {
+      "max": 15,
+      "score": 3,
+      "detail": "0 machine-readable endpoint(s) found; docs link: https://linear.app/developers"
+    },
+    "content_ingestibility": {
+      "max": 15,
+      "score": 15,
+      "detail": "1637 words (~4640 tokens) on the homepage; text/byte ratio 1.30"
+    }
+  },
+  "checks": {
+    "llms_txt": {
+      "found": true,
+      "url": "https://linear.app/llms.txt",
+      "bytes": 11749,
+      "h1": "Linear",
+      "summary": "Linear is a purpose-built tool for planning and building products. Meet the system for modern software development. Streamline issues, projects, and product roadmaps.",
+      "sections": [
+        {
+          "title": "Website",
+          "links": [
+            {
+              "title": "/",
+              "url": "https://linear.app/index.md",
+              "note": ""
+            },
+            {
+              "title": "/about",
+              "url": "https://linear.app/about.md",
+              "note": ""
+            },
+            {
+              "title": "/agents",
+              "url": "https://linear.app/agents.md",
+              "note": ""
+            },
+            {
+              "title": "/ai",
+              "url": "https://linear.app/ai.md",
+              "note": ""
+            },
+            {
+              "title": "/careers",
+              "url": "https://linear.app/careers.md",
+              "note": ""
+            },
+            {
+              "title": "/changelog",
+              "url": "https://linear.app/changelog.md",
+              "note": ""
+            },
+            {
+              "title": "/coding-agent",
+              "url": "https://linear.app/coding-agent.md",
+              "note": ""
+            },
+            {
+              "title": "/resource-kit",
+              "url": "https://linear.app/resource-kit.md",
+              "note": ""
+            },
+            {
+              "title": "/contact",
+              "url": "https://linear.app/contact.md",
+              "note": ""
+            },
+            {
+              "title": "/contact/demo",
+              "url": "https://linear.app/contact/demo.md",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "Documentation",
+          "links": [
+            {
+              "title": "Start Guide",
+              "url": "https://linear.app/docs/start-guide.md",
+              "note": ""
+            },
+            {
+              "title": "Concepts",
+              "url": "https://linear.app/docs/conceptual-model.md",
+              "note": ""
+            },
+            {
+              "title": "Download Linear",
+              "url": "https://linear.app/docs/get-the-app.md",
+              "note": ""
+            },
+            {
+              "title": "Triage",
+              "url": "https://linear.app/docs/triage.md",
+              "note": ""
+            },
+            {
+              "title": "Linear Asks",
+              "url": "https://linear.app/docs/linear-asks.md",
+              "note": ""
+            },
+            {
+              "title": "Asks with Slack",
+              "url": "https://linear.app/docs/linear-asks-slack.md",
+              "note": ""
+            },
+            {
+              "title": "Asks with Email",
+              "url": "https://linear.app/docs/linear-asks-email.md",
+              "note": ""
+            },
+            {
+              "title": "Asks Web Forms",
+              "url": "https://linear.app/docs/linear-asks-web-forms.md",
+              "note": ""
+            },
+            {
+              "title": "Customer Requests",
+              "url": "https://linear.app/docs/customer-requests.md",
+              "note": ""
+            },
+            {
+              "title": "Projects",
+              "url": "https://linear.app/docs/projects.md",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "Developers",
+          "links": [
+            {
+              "title": "GraphQL SDL Schema Definition",
+              "url": "https://raw.githubusercontent.com/linear/linear/master/packages/sdk/src/schema.graphql",
+              "note": ""
+            },
+            {
+              "title": "Getting started",
+              "url": "https://linear.app/developers/graphql.md",
+              "note": ""
+            },
+            {
+              "title": "Pagination",
+              "url": "https://linear.app/developers/pagination.md",
+              "note": ""
+            },
+            {
+              "title": "Filtering",
+              "url": "https://linear.app/developers/filtering.md",
+              "note": ""
+            },
+            {
+              "title": "Rate limiting",
+              "url": "https://linear.app/developers/rate-limiting.md",
+              "note": ""
+            },
+            {
+              "title": "Deprecations",
+              "url": "https://linear.app/developers/deprecations.md",
+              "note": ""
+            },
+            {
+              "title": "Webhooks",
+              "url": "https://linear.app/developers/webhooks.md",
+              "note": ""
+            },
+            {
+              "title": "Attachments",
+              "url": "https://linear.app/developers/attachments.md",
+              "note": ""
+            },
+            {
+              "title": "Managing Customers",
+              "url": "https://linear.app/developers/managing-customers.md",
+              "note": ""
+            },
+            {
+              "title": "OAuth 2.0 authentication",
+              "url": "https://linear.app/developers/oauth-2-0-authentication.md",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "link_count": 180,
+      "issues": [],
+      "valid": true,
+      "sections_truncated": true
+    },
+    "llms_full_txt": {
+      "found": false,
+      "url": "https://linear.app/llms-full.txt",
+      "bytes": 23514
+    },
+    "robots": {
+      "found": true,
+      "url": "https://linear.app/robots.txt",
+      "status": 200,
+      "bytes": 107,
+      "ai_crawlers_allowed": 16,
+      "ai_crawlers_blocked": 0,
+      "blocked": [],
+      "policy": [
+        {
+          "bot": "GPTBot",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "OAI-SearchBot",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "ChatGPT-User",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "ClaudeBot",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "Claude-User",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "anthropic-ai",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "PerplexityBot",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "Perplexity-User",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "Google-Extended",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "CCBot",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "Applebot-Extended",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "Bytespider",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "meta-externalagent",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "Amazonbot",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "DuckAssistBot",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "cohere-ai",
+          "access": "allowed",
+          "matched_rule": null
+        }
+      ],
+      "sitemaps_declared": [
+        "https://linear.app/sitemap.xml"
+      ]
+    },
+    "sitemap": {
+      "found": true,
+      "url": "https://linear.app/sitemap.xml",
+      "url_count": 1016
+    },
+    "homepage": {
+      "url": "https://linear.app",
+      "final_url": "https://linear.app",
+      "status": 200,
+      "ok": true,
+      "elapsed_ms": 688,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Linear \u2013 The system for product development",
+      "description": "Purpose-built for planning and building products with AI agents.",
+      "h1": [
+        "The product development system for teams and agentsThe product developmentsystem for teams and agentsThe product development system for teams and agents"
+      ],
+      "word_count": 1637,
+      "token_estimate": 4640,
+      "html_bytes": 1260486
+    },
+    "structured_data": {
+      "json_ld_blocks": 0,
+      "types": [],
+      "has_organization": false,
+      "has_website": false,
+      "rich_types": []
+    },
+    "api_discoverability": {
+      "machine_readable_endpoints": [],
+      "api_link_on_homepage": "https://linear.app/developers"
+    }
+  },
+  "ai_crawler_policy": {
+    "allowed": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ChatGPT-User",
+      "ClaudeBot",
+      "Claude-User",
+      "anthropic-ai",
+      "PerplexityBot",
+      "Perplexity-User",
+      "Google-Extended",
+      "CCBot",
+      "Applebot-Extended",
+      "Bytespider",
+      "meta-externalagent",
+      "Amazonbot",
+      "DuckAssistBot",
+      "cohere-ai"
+    ],
+    "blocked": [],
+    "unspecified": []
+  },
+  "context_cost": {
+    "homepage_tokens": 4640,
+    "homepage_words": 1637,
+    "text_to_byte_ratio": 1.3
+  },
+  "generated_llms_txt": "# Linear \u2013 The system for product development\n\n> Purpose-built for planning and building products with AI agents.\n\n## Documentation\n\n- [Docs](https://linear.app/docs)\n- [Mcp](https://linear.app/docs/mcp)\n- [Gong](https://linear.app/docs/gong)\n- [Jira](https://linear.app/docs/jira)\n- [Scim](https://linear.app/docs/scim)\n- [Diffs](https://linear.app/docs/diffs)\n- [Figma](https://linear.app/docs/figma)\n- [Front](https://linear.app/docs/front)\n- [Inbox](https://linear.app/docs/inbox)\n- [Loops](https://linear.app/docs/loops)\n- [Pulse](https://linear.app/docs/pulse)\n- [Slack](https://linear.app/docs/slack)\n- [Teams](https://linear.app/docs/teams)\n- [Editor](https://linear.app/docs/editor)\n- [Gitlab](https://linear.app/docs/gitlab)\n\n## API reference\n\n- [Sdk](https://linear.app/developers/sdk)\n- [Graphql](https://linear.app/developers/graphql)\n\n## Product\n\n- [Pricing](https://linear.app/pricing)\n- [Features](https://linear.app/features)\n\n## Company\n\n- [About](https://linear.app/about)\n- [Careers](https://linear.app/careers)\n- [Contact](https://linear.app/contact)\n- [Customers](https://linear.app/customers)\n",
+  "robots_policy_snippet": "",
+  "recommendations": [
+    {
+      "id": "publish_openapi",
+      "severity": "medium",
+      "impact_points": 8,
+      "title": "Publish an OpenAPI description",
+      "detail": "Expose /openapi.json so tool-using agents can call your API without scraping HTML."
+    },
+    {
+      "id": "add_organization_jsonld",
+      "severity": "medium",
+      "impact_points": 5,
+      "title": "Add Organization JSON-LD",
+      "detail": "Entity disambiguation is the strongest predictor of being named correctly in LLM answers."
+    }
+  ],
+  "meta": {
+    "actor": "llms-txt-agent-packager",
+    "version": "0.1.0",
+    "pages_sampled": 3
+  }
+}

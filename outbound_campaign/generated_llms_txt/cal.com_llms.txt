@@ -1,0 +1,19 @@
+# Cal.com
+
+> The highest-rated scheduling system that helps you grow your business and better find time.
+
+## Product
+
+- [Pricing](https://cal.com/pricing)
+- [Pricing](https://cal.com/de/pricing)
+- [Pricing](https://cal.com/es/pricing)
+- [Pricing](https://cal.com/fr/pricing)
+- [Pricing](https://cal.com/it/pricing)
+- [Pricing](https://cal.com/nl/pricing)
+
+## Company
+
+- [About](https://cal.com/about)
+- [Contact](https://cal.com/contact)
+- [About](https://cal.com/de/about)
+- [About](https://cal.com/es/about)

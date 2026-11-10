@@ -1,0 +1,469 @@
+{
+  "domain": "supabase.com",
+  "url": "https://supabase.com",
+  "status": "OK",
+  "audited_at": "2026-11-10T23:45:45Z",
+  "duration_ms": 1912,
+  "agent_readiness_score": 96.0,
+  "grade": "A",
+  "dimensions": {
+    "llms_txt": {
+      "max": 30,
+      "score": 30,
+      "detail": "Valid llms.txt with 42 links."
+    },
+    "ai_crawler_access": {
+      "max": 20,
+      "score": 20.0,
+      "detail": "16/16 AI crawlers allowed."
+    },
+    "sitemap": {
+      "max": 10,
+      "score": 10,
+      "detail": "2000 URLs discovered."
+    },
+    "structured_data": {
+      "max": 10,
+      "score": 10,
+      "detail": "JSON-LD types: Organization, Service, SoftwareApplication, WebSite"
+    },
+    "api_discoverability": {
+      "max": 15,
+      "score": 11,
+      "detail": "1 machine-readable endpoint(s) found; docs link: https://supabase.com/docs/guides/api"
+    },
+    "content_ingestibility": {
+      "max": 15,
+      "score": 15,
+      "detail": "1434 words (~6010 tokens) on the homepage; text/byte ratio 1.06"
+    }
+  },
+  "checks": {
+    "llms_txt": {
+      "found": true,
+      "url": "https://supabase.com/llms.txt",
+      "bytes": 3298,
+      "h1": "Supabase Docs",
+      "summary": null,
+      "sections": [
+        {
+          "title": "Documentation",
+          "links": [
+            {
+              "title": "Supabase - AI & Vectors",
+              "url": "https://supabase.com/docs/guides/ai.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase - AI Tools",
+              "url": "https://supabase.com/docs/guides/ai-tools.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase - Data REST API",
+              "url": "https://supabase.com/docs/guides/api.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase - Auth",
+              "url": "https://supabase.com/docs/guides/auth.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase - Cron",
+              "url": "https://supabase.com/docs/guides/cron.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase - database",
+              "url": "https://supabase.com/docs/guides/database.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase - Deployment & Branching",
+              "url": "https://supabase.com/docs/guides/deployment.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase - Edge Functions",
+              "url": "https://supabase.com/docs/guides/functions.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase - Getting Started",
+              "url": "https://supabase.com/docs/guides/getting-started.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase - GraphQL",
+              "url": "https://supabase.com/docs/guides/graphql.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase - Integrations",
+              "url": "https://supabase.com/docs/guides/integrations.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase - Local Development & CLI",
+              "url": "https://supabase.com/docs/guides/local-development.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase - Observability",
+              "url": "https://supabase.com/docs/guides/observability.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase - Supabase Platform",
+              "url": "https://supabase.com/docs/guides/platform.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase - Supabase Queues",
+              "url": "https://supabase.com/docs/guides/queues.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase - Realtime",
+              "url": "https://supabase.com/docs/guides/realtime.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase - Resources",
+              "url": "https://supabase.com/docs/guides/resources.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase - Supabase Security",
+              "url": "https://supabase.com/docs/guides/security.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase - Self-Hosting",
+              "url": "https://supabase.com/docs/guides/self-hosting.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase - Storage",
+              "url": "https://supabase.com/docs/guides/storage.md",
+              "note": ""
+            },
+            {
+              "title": "Supabase Reference (JavaScript)",
+              "url": "https://supabase.com/llms/js.txt",
+              "note": ""
+            },
+            {
+              "title": "Supabase Reference (Dart)",
+              "url": "https://supabase.com/llms/dart.txt",
+              "note": ""
+            },
+            {
+              "title": "Supabase Reference (Swift)",
+              "url": "https://supabase.com/llms/swift.txt",
+              "note": ""
+            },
+            {
+              "title": "Supabase Reference (Kotlin)",
+              "url": "https://supabase.com/llms/kotlin.txt",
+              "note": ""
+            },
+            {
+              "title": "Supabase Reference (Python)",
+              "url": "https://supabase.com/llms/python.txt",
+              "note": ""
+            },
+            {
+              "title": "Supabase Reference (C#)",
+              "url": "https://supabase.com/llms/csharp.txt",
+              "note": ""
+            },
+            {
+              "title": "Supabase Server SDK Reference",
+              "url": "https://supabase.com/llms/server.txt",
+              "note": ""
+            },
+            {
+              "title": "Supabase CLI Reference",
+              "url": "https://supabase.com/llms/cli.txt",
+              "note": ""
+            },
+            {
+              "title": "Supabase Management API Reference",
+              "url": "https://supabase.com/llms/api.txt",
+              "note": ""
+            },
+            {
+              "title": "Knowledge Base",
+              "url": "https://supabase.com/kb/sitemap.md",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "Pricing",
+          "links": [
+            {
+              "title": "Supabase Pricing",
+              "url": "https://supabase.com/pricing.md",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "Product overviews",
+          "links": [
+            {
+              "title": "Supabase overview",
+              "url": "https://supabase.com/index.md",
+              "note": ""
+            },
+            {
+              "title": "Database",
+              "url": "https://supabase.com/database.md",
+              "note": "dedicated Postgres, usable on its own with any Postgres client or ORM"
+            },
+            {
+              "title": "Auth",
+              "url": "https://supabase.com/auth.md",
+              "note": ""
+            },
+            {
+              "title": "Storage",
+              "url": "https://supabase.com/storage.md",
+              "note": ""
+            },
+            {
+              "title": "Realtime",
+              "url": "https://supabase.com/realtime.md",
+              "note": ""
+            },
+            {
+              "title": "Edge Functions",
+              "url": "https://supabase.com/edge-functions.md",
+              "note": ""
+            },
+            {
+              "title": "Cron",
+              "url": "https://supabase.com/modules/cron.md",
+              "note": ""
+            },
+            {
+              "title": "Queues",
+              "url": "https://supabase.com/modules/queues.md",
+              "note": ""
+            },
+            {
+              "title": "Vector",
+              "url": "https://supabase.com/modules/vector.md",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "API and agent resources",
+          "links": [
+            {
+              "title": "Supabase Management API OpenAPI spec",
+              "url": "https://supabase.com/openapi.json",
+              "note": "OpenAPI 3.0 description of the Management API for managing organizations, projects, branches, and configuration"
+            },
+            {
+              "title": "Supabase MCP server",
+              "url": "https://mcp.supabase.com/mcp",
+              "note": "Streamable HTTP MCP endpoint, OAuth-protected, for managing projects, database schema, and queries from MCP clients"
+            }
+          ]
+        }
+      ],
+      "link_count": 42,
+      "issues": [
+        {
+          "code": "no_summary",
+          "detail": "Missing `> one-line summary` block quote under the H1."
+        }
+      ],
+      "valid": true
+    },
+    "llms_full_txt": {
+      "found": true,
+      "url": "https://supabase.com/llms-full.txt",
+      "bytes": 6739167
+    },
+    "robots": {
+      "found": true,
+      "url": "https://supabase.com/robots.txt",
+      "status": 200,
+      "bytes": 121,
+      "ai_crawlers_allowed": 16,
+      "ai_crawlers_blocked": 0,
+      "blocked": [],
+      "policy": [
+        {
+          "bot": "GPTBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "OAI-SearchBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "ChatGPT-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "ClaudeBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Claude-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "anthropic-ai",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "PerplexityBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Perplexity-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Google-Extended",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "CCBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Applebot-Extended",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Bytespider",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "meta-externalagent",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Amazonbot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "DuckAssistBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "cohere-ai",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        }
+      ],
+      "sitemaps_declared": [
+        "https://supabase.com/sitemap.xml"
+      ]
+    },
+    "sitemap": {
+      "found": true,
+      "url": "https://supabase.com/sitemap.xml",
+      "url_count": 2000
+    },
+    "homepage": {
+      "url": "https://supabase.com",
+      "final_url": "https://supabase.com",
+      "status": 200,
+      "ok": true,
+      "elapsed_ms": 359,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Supabase | The Postgres Development Platform",
+      "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
+      "h1": [
+        "Build in a weekendScale to millions"
+      ],
+      "word_count": 1434,
+      "token_estimate": 6010,
+      "html_bytes": 1349658
+    },
+    "structured_data": {
+      "json_ld_blocks": 4,
+      "types": [
+        "Organization",
+        "Service",
+        "SoftwareApplication",
+        "WebSite"
+      ],
+      "has_organization": true,
+      "has_website": true,
+      "rich_types": [
+        "SoftwareApplication"
+      ]
+    },
+    "api_discoverability": {
+      "machine_readable_endpoints": [
+        {
+          "path": "/openapi.json",
+          "status": 200,
+          "bytes": 359158
+        }
+      ],
+      "api_link_on_homepage": "https://supabase.com/docs/guides/api"
+    }
+  },
+  "ai_crawler_policy": {
+    "allowed": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ChatGPT-User",
+      "ClaudeBot",
+      "Claude-User",
+      "anthropic-ai",
+      "PerplexityBot",
+      "Perplexity-User",
+      "Google-Extended",
+      "CCBot",
+      "Applebot-Extended",
+      "Bytespider",
+      "meta-externalagent",
+      "Amazonbot",
+      "DuckAssistBot",
+      "cohere-ai"
+    ],
+    "blocked": [],
+    "unspecified": []
+  },
+  "context_cost": {
+    "homepage_tokens": 6010,
+    "homepage_words": 1434,
+    "text_to_byte_ratio": 1.06
+  },
+  "generated_llms_txt": "# Supabase\n\n> Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.\n\n## Documentation\n\n- [Ai](https://supabase.com/docs/guides/ai)\n- [Api](https://supabase.com/docs/guides/api)\n- [Auth](https://supabase.com/docs/guides/auth)\n- [Cron](https://supabase.com/docs/guides/cron)\n- [Queues](https://supabase.com/docs/guides/queues)\n- [Graphql](https://supabase.com/docs/guides/graphql)\n- [Storage](https://supabase.com/docs/guides/storage)\n- [Ai tools](https://supabase.com/docs/guides/ai-tools)\n- [Platform](https://supabase.com/docs/guides/platform)\n- [Realtime](https://supabase.com/docs/guides/realtime)\n- [Security](https://supabase.com/docs/guides/security)\n- [Jwts](https://supabase.com/docs/guides/auth/jwts)\n- [Functions](https://supabase.com/docs/guides/functions)\n- [Resources](https://supabase.com/docs/guides/resources)\n- [Users](https://supabase.com/docs/guides/auth/users)\n\n## API reference\n\n- [Cli](https://supabase.com/features/cli)\n- [Api](https://supabase.com/docs/guides/api)\n- [Graphql](https://supabase.com/docs/guides/graphql)\n- [Api](https://supabase.com/docs/guides/queues/api)\n- [Api](https://supabase.com/docs/guides/graphql/api)\n- [Api](https://supabase.com/docs/guides/ai/python/api)\n\n## Product\n\n- [Pricing](https://supabase.com/pricing)\n- [Features](https://supabase.com/features)\n- [Pricing](https://supabase.com/blog/pricing)\n- [Cdn](https://supabase.com/features/cdn)\n- [Cli](https://supabase.com/features/cli)\n- [Vault](https://supabase.com/features/vault)\n\n## Company\n\n- [Blog](https://supabase.com/blog)\n- [Careers](https://supabase.com/careers)\n- [Company](https://supabase.com/company)\n- [Ipv6](https://supabase.com/blog/ipv6)\n",
+  "robots_policy_snippet": "",
+  "recommendations": [],
+  "meta": {
+    "actor": "llms-txt-agent-packager",
+    "version": "0.1.0",
+    "pages_sampled": 3
+  }
+}

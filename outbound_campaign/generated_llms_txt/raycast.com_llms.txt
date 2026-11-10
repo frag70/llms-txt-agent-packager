@@ -1,0 +1,14 @@
+# Raycast - Your shortcut to everything
+
+> A collection of powerful productivity tools all within an extendable launcher.
+
+## Product
+
+- [Pricing](https://www.raycast.com/pricing)
+
+## Company
+
+- [Blog](https://www.raycast.com/blog)
+- [Careers](https://www.raycast.com/careers)
+- [Feedback](https://www.raycast.com/blog/feedback)
+- [Series a](https://www.raycast.com/blog/series-a)

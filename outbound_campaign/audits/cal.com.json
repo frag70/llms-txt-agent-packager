@@ -1,0 +1,542 @@
+{
+  "domain": "cal.com",
+  "url": "https://cal.com",
+  "status": "OK",
+  "audited_at": "2026-11-10T23:45:50Z",
+  "duration_ms": 1902,
+  "agent_readiness_score": 73.0,
+  "grade": "B",
+  "dimensions": {
+    "llms_txt": {
+      "max": 30,
+      "score": 20,
+      "detail": "llms.txt present but has 2 spec issue(s)."
+    },
+    "ai_crawler_access": {
+      "max": 20,
+      "score": 20.0,
+      "detail": "16/16 AI crawlers allowed."
+    },
+    "sitemap": {
+      "max": 10,
+      "score": 10,
+      "detail": "2000 URLs discovered."
+    },
+    "structured_data": {
+      "max": 10,
+      "score": 0,
+      "detail": "JSON-LD types: none"
+    },
+    "api_discoverability": {
+      "max": 15,
+      "score": 8,
+      "detail": "1 machine-readable endpoint(s) found"
+    },
+    "content_ingestibility": {
+      "max": 15,
+      "score": 15,
+      "detail": "3302 words (~6424 tokens) on the homepage; text/byte ratio 4.78"
+    }
+  },
+  "checks": {
+    "llms_txt": {
+      "found": true,
+      "url": "https://cal.com/llms.txt",
+      "bytes": 6499,
+      "h1": "Cal.com Docs",
+      "summary": null,
+      "sections": [
+        {
+          "title": "(unsectioned)",
+          "links": [
+            {
+              "title": "API v2 Reference (443 pages)",
+              "url": "https://cal.com/docs/_llms/api-v2-reference.txt",
+              "note": "Getting Started, CORE, CALENDARS, EVENT TYPES & AUTOMATION, TEAMS, ORGANIZATIONS, AUTH & ACCESS, DEPRECATED."
+            }
+          ]
+        },
+        {
+          "title": "Atoms",
+          "links": [
+            {
+              "title": "Introduction to Cal.com Atoms",
+              "url": "https://cal.com/docs/atoms/introduction.md",
+              "note": "Embed Cal.com scheduling components directly into your application"
+            },
+            {
+              "title": "Setup",
+              "url": "https://cal.com/docs/atoms/setup.md",
+              "note": "Complete setup guide for Cal.com Atoms with OAuth"
+            },
+            {
+              "title": "Cal OAuth Provider",
+              "url": "https://cal.com/docs/atoms/cal-oauth-provider.md",
+              "note": ""
+            },
+            {
+              "title": "Onboarding Embed",
+              "url": "https://cal.com/docs/atoms/onboarding-embed.md",
+              "note": "Embed Cal.com account creation, onboarding, and OAuth authorization directly in your app"
+            },
+            {
+              "title": "Booker",
+              "url": "https://cal.com/docs/atoms/booker.md",
+              "note": ""
+            },
+            {
+              "title": "Booker Embed",
+              "url": "https://cal.com/docs/atoms/booker-embed.md",
+              "note": ""
+            },
+            {
+              "title": "Event Type",
+              "url": "https://cal.com/docs/atoms/event-type.md",
+              "note": ""
+            },
+            {
+              "title": "List Event Types",
+              "url": "https://cal.com/docs/atoms/list-event-types.md",
+              "note": ""
+            },
+            {
+              "title": "Availability settings",
+              "url": "https://cal.com/docs/atoms/availability-settings.md",
+              "note": ""
+            },
+            {
+              "title": "Create schedule",
+              "url": "https://cal.com/docs/atoms/create-schedule.md",
+              "note": ""
+            },
+            {
+              "title": "List schedules",
+              "url": "https://cal.com/docs/atoms/list-schedules.md",
+              "note": ""
+            },
+            {
+              "title": "Calendar settings",
+              "url": "https://cal.com/docs/atoms/calendar-settings.md",
+              "note": ""
+            },
+            {
+              "title": "Calendar view",
+              "url": "https://cal.com/docs/atoms/calendar-view.md",
+              "note": ""
+            },
+            {
+              "title": "Google calendar connect",
+              "url": "https://cal.com/docs/atoms/google-calendar-connect.md",
+              "note": ""
+            },
+            {
+              "title": "Outlook calendar connect",
+              "url": "https://cal.com/docs/atoms/outlook-calendar-connect.md",
+              "note": ""
+            },
+            {
+              "title": "Apple calendar connect",
+              "url": "https://cal.com/docs/atoms/apple-calendar-connect.md",
+              "note": ""
+            },
+            {
+              "title": "Conferencing Apps",
+              "url": "https://cal.com/docs/atoms/conferencing-apps.md",
+              "note": ""
+            },
+            {
+              "title": "Stripe Connect",
+              "url": "https://cal.com/docs/atoms/stripe-connect.md",
+              "note": ""
+            },
+            {
+              "title": "Payment form",
+              "url": "https://cal.com/docs/atoms/payment-form.md",
+              "note": ""
+            },
+            {
+              "title": "Troubleshooter",
+              "url": "https://cal.com/docs/atoms/troubleshooter.md",
+              "note": ""
+            },
+            {
+              "title": "Managing booking fields",
+              "url": "https://cal.com/docs/atoms/guides/booking-fields.md",
+              "note": "Prefilling and / or making them read-only."
+            },
+            {
+              "title": "Custom booking flow",
+              "url": "https://cal.com/docs/atoms/guides/custom-booking-flow.md",
+              "note": "Learn how to intercept a booking to introduce your custom flow and then submit the booking."
+            },
+            {
+              "title": "Custom slot selection flow",
+              "url": "https://cal.com/docs/atoms/guides/custom-slot-select-flow.md",
+              "note": "Learn how to use handleSlotReservation for custom slot selection flows."
+            },
+            {
+              "title": "Custom toasts",
+              "url": "https://cal.com/docs/atoms/guides/replacing-toasts.md",
+              "note": "Replace default cal.com toasts with your own"
+            },
+            {
+              "title": "Bookings hooks",
+              "url": "https://cal.com/docs/atoms/hooks/bookings-hooks.md",
+              "note": "Overview of all the hooks associated with bookings."
+            },
+            {
+              "title": "Calendars hooks",
+              "url": "https://cal.com/docs/atoms/hooks/calendar-hooks.md",
+              "note": "Overview of all the hooks associated with calendars."
+            },
+            {
+              "title": "Event types hooks",
+              "url": "https://cal.com/docs/atoms/hooks/event-types-hooks.md",
+              "note": "Overview of all the hooks associated with event types."
+            },
+            {
+              "title": "Team hooks",
+              "url": "https://cal.com/docs/atoms/hooks/team-hooks.md",
+              "note": "Overview of all the hooks associated with teams."
+            },
+            {
+              "title": "User hooks",
+              "url": "https://cal.com/docs/atoms/hooks/user-hooks.md",
+              "note": "Overview of all the hooks associated with users."
+            }
+          ]
+        },
+        {
+          "title": "Developing",
+          "links": [
+            {
+              "title": "Local Development",
+              "url": "https://cal.com/docs/developing/local-development.md",
+              "note": ""
+            },
+            {
+              "title": "Introduction",
+              "url": "https://cal.com/docs/developing/open-source-contribution/introduction.md",
+              "note": ""
+            },
+            {
+              "title": "Code styling",
+              "url": "https://cal.com/docs/developing/open-source-contribution/code-styling.md",
+              "note": ""
+            },
+            {
+              "title": "Pull requests",
+              "url": "https://cal.com/docs/developing/open-source-contribution/pull-requests.md",
+              "note": ""
+            },
+            {
+              "title": "Contributor's Guide",
+              "url": "https://cal.com/docs/developing/open-source-contribution/contributors-guide.md",
+              "note": ""
+            },
+            {
+              "title": "How to Set Up the API in a Local Instance",
+              "url": "https://cal.com/docs/developing/guides/api/how-to-setup-api-in-a-local-instance.md",
+              "note": ""
+            },
+            {
+              "title": "Build a greeter app",
+              "url": "https://cal.com/docs/developing/guides/appstore-and-integration/build-a-greeter-app.md",
+              "note": ""
+            },
+            {
+              "title": "How to build an app",
+              "url": "https://cal.com/docs/developing/guides/appstore-and-integration/build-an-app.md",
+              "note": ""
+            },
+            {
+              "title": "Assign people to a call from a CRM or database",
+              "url": "https://cal.com/docs/developing/guides/appstore-and-integration/how-to-show-assigned-people-from-a-crm.md",
+              "note": ""
+            },
+            {
+              "title": "Salesforce integration",
+              "url": "https://cal.com/docs/developing/guides/appstore-and-integration/salesforce.md",
+              "note": "Configure how Cal.com syncs booking data with Salesforce contacts, leads, and events."
+            },
+            {
+              "title": "Setting up OIDC with okta",
+              "url": "https://cal.com/docs/developing/guides/auth-and-provision/how-to-setup-oidc-with-okta.md",
+              "note": ""
+            },
+            {
+              "title": "How to setup scim with okta",
+              "url": "https://cal.com/docs/developing/guides/auth-and-provision/how-to-setup-scim-with-okta.md",
+              "note": ""
+            },
+            {
+              "title": "SSO setup",
+              "url": "https://cal.com/docs/developing/guides/auth-and-provision/sso-setup.md",
+              "note": ""
+            },
+            {
+              "title": "Audit logs",
+              "url": "https://cal.com/docs/developing/guides/audit-logs.md",
+              "note": "Track security and access control events across your organization"
+            },
+            {
+              "title": "Webhooks",
+              "url": "https://cal.com/docs/developing/guides/automation/webhooks.md",
+              "note": ""
+            },
+            {
+              "title": "Add changesets",
+              "url": "https://cal.com/docs/developing/guides/atoms/add-changesets.md",
+              "note": ""
+            },
+            {
+              "title": "Setting up mailtrap for email testing",
+              "url": "https://cal.com/docs/developing/guides/email/setup-mailtrap-for-email-testing.md",
+              "note": ""
+            },
+            {
+              "title": "Embed Events",
+              "url": "https://cal.com/docs/developing/guides/embeds/embed-events.md",
+              "note": ""
+            },
+            {
+              "title": "Customize the embed with CSS variables",
+              "url": "https://cal.com/docs/developing/guides/embeds/customize-embed-css-variables.md",
+              "note": ""
+            },
+            {
+              "title": "How to Add a New Booking Chart to Cal.com Insights Page",
+              "url": "https://cal.com/docs/developing/guides/insights/add-new-booking-charts.md",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "OpenAPI Specs",
+          "links": [
+            {
+              "title": "openapi",
+              "url": "/docs/api-reference/v2/openapi.json",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "Indexes",
+          "links": [
+            {
+              "title": "API v2 Reference / ORGANIZATIONS (164 pages)",
+              "url": "https://cal.com/docs/_llms/api-v2-reference/organizations.txt",
+              "note": "Attributes, Bookings, Organization Event Types, Orgs / Calendar Invites, Conferencing, Delegation Credentials, Secondary Domains, Memberships, Roles, Routing Forms, Schedules, Users, Teams, Webhooks, Organization Team Verified Resources."
+            }
+          ]
+        }
+      ],
+      "link_count": 52,
+      "issues": [
+        {
+          "code": "relative_links",
+          "detail": "1 link(s) are relative; llms.txt must use absolute URLs.",
+          "examples": [
+            "/docs/api-reference/v2/openapi.json"
+          ]
+        },
+        {
+          "code": "no_summary",
+          "detail": "Missing `> one-line summary` block quote under the H1."
+        }
+      ],
+      "valid": false
+    },
+    "llms_full_txt": {
+      "found": false,
+      "url": "https://cal.com/llms-full.txt",
+      "bytes": 178369
+    },
+    "robots": {
+      "found": true,
+      "url": "https://cal.com/robots.txt",
+      "status": 200,
+      "bytes": 959,
+      "ai_crawlers_allowed": 16,
+      "ai_crawlers_blocked": 0,
+      "blocked": [],
+      "policy": [
+        {
+          "bot": "GPTBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "OAI-SearchBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "ChatGPT-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "ClaudeBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Claude-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "anthropic-ai",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "PerplexityBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Perplexity-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Google-Extended",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "CCBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Applebot-Extended",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Bytespider",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "meta-externalagent",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Amazonbot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "DuckAssistBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "cohere-ai",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        }
+      ],
+      "sitemaps_declared": [
+        "https://cal.com/sitemap.xml",
+        "https://cal.com/discover/sitemap.xml",
+        "https://cal.com/help/sitemap.xml",
+        "https://cal.com/docs/sitemap.xml"
+      ]
+    },
+    "sitemap": {
+      "found": true,
+      "url": "https://cal.com/sitemap.xml",
+      "url_count": 2000
+    },
+    "homepage": {
+      "url": "https://cal.com",
+      "final_url": "https://cal.com",
+      "status": 200,
+      "ok": true,
+      "elapsed_ms": 309,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Cal.com | Scheduling Software for Online Bookings",
+      "description": "The highest-rated scheduling system that helps you grow your business and better find time.",
+      "h1": [
+        "Where  people Intro call30m   Booked 12:30 AM 12:30 PM find     the time to meet"
+      ],
+      "word_count": 3302,
+      "token_estimate": 6424,
+      "html_bytes": 691262
+    },
+    "structured_data": {
+      "json_ld_blocks": 0,
+      "types": [],
+      "has_organization": false,
+      "has_website": false,
+      "rich_types": []
+    },
+    "api_discoverability": {
+      "machine_readable_endpoints": [
+        {
+          "path": "/openapi.json",
+          "status": 200,
+          "bytes": 6327
+        }
+      ],
+      "api_link_on_homepage": null
+    }
+  },
+  "ai_crawler_policy": {
+    "allowed": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ChatGPT-User",
+      "ClaudeBot",
+      "Claude-User",
+      "anthropic-ai",
+      "PerplexityBot",
+      "Perplexity-User",
+      "Google-Extended",
+      "CCBot",
+      "Applebot-Extended",
+      "Bytespider",
+      "meta-externalagent",
+      "Amazonbot",
+      "DuckAssistBot",
+      "cohere-ai"
+    ],
+    "blocked": [],
+    "unspecified": []
+  },
+  "context_cost": {
+    "homepage_tokens": 6424,
+    "homepage_words": 3302,
+    "text_to_byte_ratio": 4.78
+  },
+  "generated_llms_txt": "# Cal.com\n\n> The highest-rated scheduling system that helps you grow your business and better find time.\n\n## Product\n\n- [Pricing](https://cal.com/pricing)\n- [Pricing](https://cal.com/de/pricing)\n- [Pricing](https://cal.com/es/pricing)\n- [Pricing](https://cal.com/fr/pricing)\n- [Pricing](https://cal.com/it/pricing)\n- [Pricing](https://cal.com/nl/pricing)\n\n## Company\n\n- [About](https://cal.com/about)\n- [Contact](https://cal.com/contact)\n- [About](https://cal.com/de/about)\n- [About](https://cal.com/es/about)\n",
+  "robots_policy_snippet": "",
+  "recommendations": [
+    {
+      "id": "fix_llms_txt",
+      "severity": "high",
+      "impact_points": 10,
+      "title": "Fix llms.txt spec violations",
+      "detail": "1 link(s) are relative; llms.txt must use absolute URLs.; Missing `> one-line summary` block quote under the H1."
+    },
+    {
+      "id": "add_organization_jsonld",
+      "severity": "medium",
+      "impact_points": 5,
+      "title": "Add Organization JSON-LD",
+      "detail": "Entity disambiguation is the strongest predictor of being named correctly in LLM answers."
+    }
+  ],
+  "meta": {
+    "actor": "llms-txt-agent-packager",
+    "version": "0.1.0",
+    "pages_sampled": 3
+  }
+}

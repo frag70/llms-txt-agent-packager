@@ -1,0 +1,46 @@
+# Mintlify
+
+> Self-updating documentation for startups, enterprises, and agents.
+
+## Documentation
+
+- [Docs](https://www.mintlify.com/docs)
+- [Es](https://www.mintlify.com/docs/es)
+- [Fr](https://www.mintlify.com/docs/fr)
+- [Zh](https://www.mintlify.com/docs/zh)
+- [Cli](https://www.mintlify.com/docs/cli)
+- [Base](https://www.mintlify.com/docs/base)
+- [Agent](https://www.mintlify.com/docs/agent)
+- [Editor](https://www.mintlify.com/docs/editor)
+- [Cli](https://www.mintlify.com/docs/es/cli)
+- [Cli](https://www.mintlify.com/docs/fr/cli)
+- [Guides](https://www.mintlify.com/docs/guides)
+- [Cli](https://www.mintlify.com/docs/zh/cli)
+- [Credits](https://www.mintlify.com/docs/credits)
+- [Desktop](https://www.mintlify.com/docs/desktop)
+- [Base](https://www.mintlify.com/docs/es/base)
+
+## API reference
+
+- [Cli](https://www.mintlify.com/docs/cli)
+- [Cli](https://www.mintlify.com/docs/es/cli)
+- [Cli](https://www.mintlify.com/docs/fr/cli)
+- [Cli](https://www.mintlify.com/docs/zh/cli)
+- [Install](https://www.mintlify.com/docs/cli/install)
+- [Preview](https://www.mintlify.com/docs/cli/preview)
+
+## Product
+
+- [Pricing](https://www.mintlify.com/pricing)
+- [Dev docs](https://www.mintlify.com/use-cases/dev-docs)
+- [Use cases](https://www.mintlify.com/docs/agent/use-cases)
+- [Help center](https://www.mintlify.com/use-cases/help-center)
+- [Slack agent](https://www.mintlify.com/use-cases/slack-agent)
+- [Use cases](https://www.mintlify.com/docs/es/agent/use-cases)
+
+## Company
+
+- [Blog](https://www.mintlify.com/blog)
+- [Careers](https://www.mintlify.com/careers)
+- [Chat](https://www.mintlify.com/blog/chat)
+- [Mcpt](https://www.mintlify.com/blog/mcpt)

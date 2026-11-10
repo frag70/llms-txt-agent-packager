@@ -1,0 +1,341 @@
+{
+  "domain": "dub.co",
+  "url": "https://dub.co",
+  "status": "OK",
+  "audited_at": "2026-11-10T23:45:52Z",
+  "duration_ms": 1143,
+  "agent_readiness_score": 83.0,
+  "grade": "B",
+  "dimensions": {
+    "llms_txt": {
+      "max": 30,
+      "score": 20,
+      "detail": "llms.txt present but has 2 spec issue(s)."
+    },
+    "ai_crawler_access": {
+      "max": 20,
+      "score": 20.0,
+      "detail": "16/16 AI crawlers allowed."
+    },
+    "sitemap": {
+      "max": 10,
+      "score": 10,
+      "detail": "354 URLs discovered."
+    },
+    "structured_data": {
+      "max": 10,
+      "score": 7,
+      "detail": "JSON-LD types: Organization, SoftwareApplication"
+    },
+    "api_discoverability": {
+      "max": 15,
+      "score": 11,
+      "detail": "1 machine-readable endpoint(s) found; docs link: https://dub.co/docs/api-reference/introduction"
+    },
+    "content_ingestibility": {
+      "max": 15,
+      "score": 15,
+      "detail": "2135 words (~5896 tokens) on the homepage; text/byte ratio 3.26"
+    }
+  },
+  "checks": {
+    "llms_txt": {
+      "found": true,
+      "url": "https://dub.co/llms.txt",
+      "bytes": 43423,
+      "h1": "Dub",
+      "summary": null,
+      "sections": [
+        {
+          "title": "(unsectioned)",
+          "links": [
+            {
+              "title": "Introduction",
+              "url": "https://dub.co/docs.md",
+              "note": ""
+            },
+            {
+              "title": "How attribution works",
+              "url": "https://dub.co/docs/concepts/attribution.md",
+              "note": "A deep-dive into Dub's attribution infrastructure and how conversion tracking works from click \u2192 lead \u2192 sale \u2192 commission."
+            },
+            {
+              "title": "Server-side tracking",
+              "url": "https://dub.co/docs/quickstart/server.md",
+              "note": "Learn how to track conversion events with Dub using server-side tracking."
+            },
+            {
+              "title": "Client-side tracking",
+              "url": "https://dub.co/docs/quickstart/client.md",
+              "note": "Learn how to track sales conversion events with Dub on the client-side"
+            },
+            {
+              "title": "Swift",
+              "url": "https://dub.co/docs/sdks/client-side-mobile/installation-guides/swift.md",
+              "note": "How to add the Dub iOS SDK to your Swift project"
+            },
+            {
+              "title": "React Native",
+              "url": "https://dub.co/docs/sdks/client-side-mobile/installation-guides/react-native.md",
+              "note": "How to add the Dub React Native SDK to your React Native project"
+            },
+            {
+              "title": "Stripe",
+              "url": "https://dub.co/docs/integrations/stripe.md",
+              "note": "Learn how to track sale conversion events with Stripe and Dub"
+            },
+            {
+              "title": "Google Tag Manager",
+              "url": "https://dub.co/docs/integrations/google-tag-manager.md",
+              "note": "Learn how to track sales conversion events with Google Tag Manager and Dub"
+            },
+            {
+              "title": "Shopify",
+              "url": "https://dub.co/docs/integrations/shopify.md",
+              "note": "Learn how to track sale conversion events with Shopify and Dub"
+            },
+            {
+              "title": "HubSpot",
+              "url": "https://dub.co/docs/integrations/hubspot.md",
+              "note": "Learn how to track lead conversion events with HubSpot and Dub"
+            }
+          ]
+        },
+        {
+          "title": "OpenAPI Specs",
+          "links": [
+            {
+              "title": "workflow",
+              "url": "/.speakeasy/workflow.yaml",
+              "note": ""
+            },
+            {
+              "title": "api",
+              "url": "/api.dub",
+              "note": ""
+            },
+            {
+              "title": "api.dub",
+              "url": "https://api.dub.co",
+              "note": ""
+            },
+            {
+              "title": "package",
+              "url": "/package.json",
+              "note": ""
+            },
+            {
+              "title": "pnpm-lock",
+              "url": "/pnpm-lock.yaml",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "link_count": 265,
+      "issues": [
+        {
+          "code": "relative_links",
+          "detail": "4 link(s) are relative; llms.txt must use absolute URLs.",
+          "examples": [
+            "/.speakeasy/workflow.yaml",
+            "/api.dub",
+            "/package.json",
+            "/pnpm-lock.yaml"
+          ]
+        },
+        {
+          "code": "no_summary",
+          "detail": "Missing `> one-line summary` block quote under the H1."
+        }
+      ],
+      "valid": false,
+      "sections_truncated": true
+    },
+    "llms_full_txt": {
+      "found": false,
+      "url": "https://dub.co/llms-full.txt",
+      "bytes": 14683
+    },
+    "robots": {
+      "found": true,
+      "url": "https://dub.co/robots.txt",
+      "status": 200,
+      "bytes": 96,
+      "ai_crawlers_allowed": 16,
+      "ai_crawlers_blocked": 0,
+      "blocked": [],
+      "policy": [
+        {
+          "bot": "GPTBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "OAI-SearchBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "ChatGPT-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "ClaudeBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Claude-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "anthropic-ai",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "PerplexityBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Perplexity-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Google-Extended",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "CCBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Applebot-Extended",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Bytespider",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "meta-externalagent",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Amazonbot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "DuckAssistBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "cohere-ai",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        }
+      ],
+      "sitemaps_declared": [
+        "https://dub.co/sitemap.xml"
+      ]
+    },
+    "sitemap": {
+      "found": true,
+      "url": "https://dub.co/sitemap.xml",
+      "url_count": 354
+    },
+    "homepage": {
+      "url": "https://dub.co",
+      "final_url": "https://dub.co",
+      "status": 200,
+      "ok": true,
+      "elapsed_ms": 603,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Dub - The Modern Link Attribution Platform",
+      "description": "Dub is the modern link attribution platform for short links, conversion tracking, and affiliate programs.",
+      "h1": [
+        "Turn clicks into revenue"
+      ],
+      "word_count": 2135,
+      "token_estimate": 5896,
+      "html_bytes": 654980
+    },
+    "structured_data": {
+      "json_ld_blocks": 2,
+      "types": [
+        "Organization",
+        "SoftwareApplication"
+      ],
+      "has_organization": true,
+      "has_website": false,
+      "rich_types": [
+        "SoftwareApplication"
+      ]
+    },
+    "api_discoverability": {
+      "machine_readable_endpoints": [
+        {
+          "path": "/openapi.json",
+          "status": 200,
+          "bytes": 418931
+        }
+      ],
+      "api_link_on_homepage": "https://dub.co/docs/api-reference/introduction"
+    }
+  },
+  "ai_crawler_policy": {
+    "allowed": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ChatGPT-User",
+      "ClaudeBot",
+      "Claude-User",
+      "anthropic-ai",
+      "PerplexityBot",
+      "Perplexity-User",
+      "Google-Extended",
+      "CCBot",
+      "Applebot-Extended",
+      "Bytespider",
+      "meta-externalagent",
+      "Amazonbot",
+      "DuckAssistBot",
+      "cohere-ai"
+    ],
+    "blocked": [],
+    "unspecified": []
+  },
+  "context_cost": {
+    "homepage_tokens": 5896,
+    "homepage_words": 2135,
+    "text_to_byte_ratio": 3.26
+  },
+  "generated_llms_txt": "# Dub - The Modern Link Attribution Platform\n\n> Dub is the modern link attribution platform for short links, conversion tracking, and affiliate programs.\n\n## Product\n\n- [Pricing](https://dub.co/pricing)\n- [Go](https://dub.co/solutions/go)\n- [Php](https://dub.co/solutions/php)\n- [Ruby](https://dub.co/solutions/ruby)\n- [Python](https://dub.co/solutions/python)\n- [Creators](https://dub.co/solutions/creators)\n\n## Company\n\n- [Blog](https://dub.co/blog)\n- [About](https://dub.co/about)\n- [Careers](https://dub.co/careers)\n- [2024](https://dub.co/blog/2024)\n",
+  "robots_policy_snippet": "",
+  "recommendations": [
+    {
+      "id": "fix_llms_txt",
+      "severity": "high",
+      "impact_points": 10,
+      "title": "Fix llms.txt spec violations",
+      "detail": "4 link(s) are relative; llms.txt must use absolute URLs.; Missing `> one-line summary` block quote under the H1."
+    }
+  ],
+  "meta": {
+    "actor": "llms-txt-agent-packager",
+    "version": "0.1.0",
+    "pages_sampled": 3
+  }
+}

@@ -1,0 +1,38 @@
+# Clerk
+
+> The easiest way to add authentication and user management to your application. Purpose-built for React, Next.js, Remix, and “The Modern Web”.
+
+## Documentation
+
+- [Docs](https://clerk.com/docs)
+- [Cli](https://clerk.com/docs/cli)
+- [Pinning](https://clerk.com/docs/pinning)
+- [Templates](https://clerk.com/docs/templates)
+- [Maintenance mode](https://clerk.com/docs/maintenance-mode)
+- [Sso](https://clerk.com/docs/vue/reference/types/sso)
+- [Sso](https://clerk.com/docs/expo/reference/types/sso)
+- [Sso](https://clerk.com/docs/nuxt/reference/types/sso)
+- [Sso](https://clerk.com/docs/astro/reference/types/sso)
+- [Reading](https://clerk.com/docs/expo/guides/users/reading)
+- [Reading](https://clerk.com/docs/nuxt/guides/users/reading)
+- [Reading](https://clerk.com/docs/astro/guides/users/reading)
+- [For b2b](https://clerk.com/docs/vue/guides/billing/for-b2b)
+- [For b2c](https://clerk.com/docs/vue/guides/billing/for-b2c)
+- [User](https://clerk.com/docs/vue/reference/objects/user)
+
+## API reference
+
+- [Cli](https://clerk.com/cli)
+- [Cli](https://clerk.com/docs/cli)
+
+## Product
+
+- [Pricing](https://clerk.com/pricing)
+- [Platform](https://clerk.com/platform)
+
+## Company
+
+- [Blog](https://clerk.com/blog)
+- [Careers](https://clerk.com/careers)
+- [Company](https://clerk.com/company)
+- [Contact](https://clerk.com/contact)

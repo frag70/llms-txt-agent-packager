@@ -1,0 +1,425 @@
+{
+  "domain": "clerk.com",
+  "url": "https://clerk.com",
+  "status": "OK",
+  "audited_at": "2026-11-10T23:45:54Z",
+  "duration_ms": 1398,
+  "agent_readiness_score": 94.0,
+  "grade": "A",
+  "dimensions": {
+    "llms_txt": {
+      "max": 30,
+      "score": 30,
+      "detail": "Valid llms.txt with 49 links."
+    },
+    "ai_crawler_access": {
+      "max": 20,
+      "score": 20.0,
+      "detail": "16/16 AI crawlers allowed."
+    },
+    "sitemap": {
+      "max": 10,
+      "score": 10,
+      "detail": "2000 URLs discovered."
+    },
+    "structured_data": {
+      "max": 10,
+      "score": 8,
+      "detail": "JSON-LD types: Organization, WebSite"
+    },
+    "api_discoverability": {
+      "max": 15,
+      "score": 11,
+      "detail": "2 machine-readable endpoint(s) found; docs link: https://clerk.com/github-student-developer-pack"
+    },
+    "content_ingestibility": {
+      "max": 15,
+      "score": 15,
+      "detail": "1473 words (~5224 tokens) on the homepage; text/byte ratio 1.30"
+    }
+  },
+  "checks": {
+    "llms_txt": {
+      "found": true,
+      "url": "https://clerk.com/llms.txt",
+      "bytes": 5901,
+      "h1": "Clerk",
+      "summary": "Clerk is user management for developers: sign-up, sign-in, and prebuilt UI components, multi-tenant organizations, enterprise SSO, subscription billing, and machine-to-machine auth, with SDKs for Next.js, React, and most web and mobile frameworks.",
+      "sections": [
+        {
+          "title": "When to use Clerk",
+          "links": []
+        },
+        {
+          "title": "Agent setup",
+          "links": [
+            {
+              "title": "Clerk Skills",
+              "url": "https://clerk.com/SKILL.md",
+              "note": "One file that routes a coding agent to the right framework-specific skill"
+            },
+            {
+              "title": "Clerk CLI",
+              "url": "https://clerk.com/docs/cli.md",
+              "note": "Commands, flags, and agent workflows. Install with `npm install -g clerk` or the [install script](https://clerk.com/install)"
+            },
+            {
+              "title": "Clerk MCP server",
+              "url": "https://mcp.clerk.com/mcp",
+              "note": "Sign in once and let an agent read and configure your Clerk apps from an MCP client. Follow the [setup guide](https://clerk.com/docs/guides/ai/mcp/clerk-mcp-server.md)"
+            },
+            {
+              "title": "Agent registration",
+              "url": "https://clerk.com/auth.md",
+              "note": "Provision an accountless Clerk application and keys without an account"
+            },
+            {
+              "title": "Skills discovery",
+              "url": "https://clerk.com/.well-known/agent-skills/index.json",
+              "note": "Every individually published skill"
+            },
+            {
+              "title": "Ship auth with AI agents",
+              "url": "https://clerk.com/agents",
+              "note": "How agent-driven Clerk setup works, end to end"
+            }
+          ]
+        },
+        {
+          "title": "SDKs",
+          "links": [
+            {
+              "title": "Next.js",
+              "url": "https://clerk.com/docs/nextjs/getting-started/quickstart.md",
+              "note": ""
+            },
+            {
+              "title": "React",
+              "url": "https://clerk.com/docs/react/getting-started/quickstart.md",
+              "note": ""
+            },
+            {
+              "title": "Expo",
+              "url": "https://clerk.com/docs/expo/getting-started/quickstart.md",
+              "note": ""
+            },
+            {
+              "title": "TanStack React Start",
+              "url": "https://clerk.com/docs/tanstack-react-start/getting-started/quickstart.md",
+              "note": ""
+            },
+            {
+              "title": "React Router",
+              "url": "https://clerk.com/docs/react-router/getting-started/quickstart.md",
+              "note": ""
+            },
+            {
+              "title": "Android",
+              "url": "https://clerk.com/docs/android/getting-started/quickstart.md",
+              "note": ""
+            },
+            {
+              "title": "Astro",
+              "url": "https://clerk.com/docs/astro/getting-started/quickstart.md",
+              "note": ""
+            },
+            {
+              "title": "Chrome Extension",
+              "url": "https://clerk.com/docs/chrome-extension/getting-started/quickstart.md",
+              "note": ""
+            },
+            {
+              "title": "Electron",
+              "url": "https://clerk.com/docs/electron/getting-started/quickstart.md",
+              "note": ""
+            },
+            {
+              "title": "iOS",
+              "url": "https://clerk.com/docs/ios/getting-started/quickstart.md",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "Products",
+          "links": [
+            {
+              "title": "User Authentication",
+              "url": "https://clerk.com/user-authentication",
+              "note": "Sign-up, sign-in, MFA, social login, and prebuilt components"
+            },
+            {
+              "title": "Enterprise Authentication",
+              "url": "https://clerk.com/enterprise-authentication",
+              "note": "SAML, OIDC, and SCIM for B2B SaaS"
+            },
+            {
+              "title": "Multi-tenancy",
+              "url": "https://clerk.com/multi-tenancy",
+              "note": "Organizations, roles, and invitations"
+            },
+            {
+              "title": "Billing",
+              "url": "https://clerk.com/billing",
+              "note": "Subscriptions without payment code"
+            },
+            {
+              "title": "Platform",
+              "url": "https://clerk.com/platform",
+              "note": "White-label Clerk for the apps your customers build"
+            },
+            {
+              "title": "Waitlist",
+              "url": "https://clerk.com/waitlist",
+              "note": "Gather interest and invite early testers"
+            }
+          ]
+        },
+        {
+          "title": "Documentation",
+          "links": [
+            {
+              "title": "Documentation home",
+              "url": "https://clerk.com/docs.md",
+              "note": "Explore by feature, frontend framework, and backend framework"
+            },
+            {
+              "title": "Documentation index",
+              "url": "https://clerk.com/docs/llms.txt",
+              "note": "Every docs page with a one-line description"
+            },
+            {
+              "title": "Documentation search",
+              "url": "https://clerk.com/docs/search.md",
+              "note": "Search the docs with `?q=<query>`, optional `&sdk=<sdk>`; returns markdown links to `.md` pages"
+            }
+          ]
+        },
+        {
+          "title": "Dashboard",
+          "links": [
+            {
+              "title": "Dashboard index",
+              "url": "https://dashboard.clerk.com/llms.txt",
+              "note": "Every Dashboard route, grouped by auth scope, with access notes"
+            }
+          ]
+        },
+        {
+          "title": "API references",
+          "links": [
+            {
+              "title": "Backend API",
+              "url": "https://clerk.com/openapi.json",
+              "note": "OpenAPI spec as JSON, or [YAML](https://clerk.com/openapi.yaml)"
+            },
+            {
+              "title": "Frontend API",
+              "url": "https://clerk.com/docs/reference/spec/fapi/latest.json",
+              "note": "OpenAPI spec as JSON, or [YAML](https://clerk.com/docs/reference/spec/fapi/latest.yml)"
+            },
+            {
+              "title": "Platform API",
+              "url": "https://clerk.com/docs/reference/spec/platform/latest.json",
+              "note": "OpenAPI spec as JSON, or [YAML](https://clerk.com/docs/reference/spec/platform/latest.yml)"
+            }
+          ]
+        },
+        {
+          "title": "Pricing",
+          "links": [
+            {
+              "title": "Pricing",
+              "url": "https://clerk.com/pricing.md",
+              "note": "Plans, feature comparison, add-ons, and volume tiers"
+            }
+          ]
+        }
+      ],
+      "link_count": 49,
+      "issues": [],
+      "valid": true,
+      "sections_truncated": true
+    },
+    "llms_full_txt": {
+      "found": true,
+      "url": "https://clerk.com/llms-full.txt",
+      "bytes": 5901
+    },
+    "robots": {
+      "found": true,
+      "url": "https://clerk.com/robots.txt",
+      "status": 200,
+      "bytes": 585,
+      "ai_crawlers_allowed": 16,
+      "ai_crawlers_blocked": 0,
+      "blocked": [],
+      "policy": [
+        {
+          "bot": "GPTBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "OAI-SearchBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "ChatGPT-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "ClaudeBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Claude-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "anthropic-ai",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "PerplexityBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Perplexity-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Google-Extended",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "CCBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Applebot-Extended",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Bytespider",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "meta-externalagent",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Amazonbot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "DuckAssistBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "cohere-ai",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        }
+      ],
+      "sitemaps_declared": [
+        "https://clerk.com/sitemap.xml"
+      ]
+    },
+    "sitemap": {
+      "found": true,
+      "url": "https://clerk.com/sitemap.xml",
+      "url_count": 2000
+    },
+    "homepage": {
+      "url": "https://clerk.com",
+      "final_url": "https://clerk.com",
+      "status": 200,
+      "ok": true,
+      "elapsed_ms": 274,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Clerk | Authentication and User Management",
+      "description": "The easiest way to add authentication and user management to your application. Purpose-built for React, Next.js, Remix, and \u201cThe Modern Web\u201d.",
+      "h1": [
+        "Everything you need for authentication"
+      ],
+      "word_count": 1473,
+      "token_estimate": 5224,
+      "html_bytes": 1137019
+    },
+    "structured_data": {
+      "json_ld_blocks": 2,
+      "types": [
+        "Organization",
+        "WebSite"
+      ],
+      "has_organization": true,
+      "has_website": true,
+      "rich_types": []
+    },
+    "api_discoverability": {
+      "machine_readable_endpoints": [
+        {
+          "path": "/openapi.json",
+          "status": 200,
+          "bytes": 727165
+        },
+        {
+          "path": "/openapi.yaml",
+          "status": 200,
+          "bytes": 399982
+        }
+      ],
+      "api_link_on_homepage": "https://clerk.com/github-student-developer-pack"
+    }
+  },
+  "ai_crawler_policy": {
+    "allowed": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ChatGPT-User",
+      "ClaudeBot",
+      "Claude-User",
+      "anthropic-ai",
+      "PerplexityBot",
+      "Perplexity-User",
+      "Google-Extended",
+      "CCBot",
+      "Applebot-Extended",
+      "Bytespider",
+      "meta-externalagent",
+      "Amazonbot",
+      "DuckAssistBot",
+      "cohere-ai"
+    ],
+    "blocked": [],
+    "unspecified": []
+  },
+  "context_cost": {
+    "homepage_tokens": 5224,
+    "homepage_words": 1473,
+    "text_to_byte_ratio": 1.3
+  },
+  "generated_llms_txt": "# Clerk\n\n> The easiest way to add authentication and user management to your application. Purpose-built for React, Next.js, Remix, and \u201cThe Modern Web\u201d.\n\n## Documentation\n\n- [Docs](https://clerk.com/docs)\n- [Cli](https://clerk.com/docs/cli)\n- [Pinning](https://clerk.com/docs/pinning)\n- [Templates](https://clerk.com/docs/templates)\n- [Maintenance mode](https://clerk.com/docs/maintenance-mode)\n- [Sso](https://clerk.com/docs/vue/reference/types/sso)\n- [Sso](https://clerk.com/docs/expo/reference/types/sso)\n- [Sso](https://clerk.com/docs/nuxt/reference/types/sso)\n- [Sso](https://clerk.com/docs/astro/reference/types/sso)\n- [Reading](https://clerk.com/docs/expo/guides/users/reading)\n- [Reading](https://clerk.com/docs/nuxt/guides/users/reading)\n- [Reading](https://clerk.com/docs/astro/guides/users/reading)\n- [For b2b](https://clerk.com/docs/vue/guides/billing/for-b2b)\n- [For b2c](https://clerk.com/docs/vue/guides/billing/for-b2c)\n- [User](https://clerk.com/docs/vue/reference/objects/user)\n\n## API reference\n\n- [Cli](https://clerk.com/cli)\n- [Cli](https://clerk.com/docs/cli)\n\n## Product\n\n- [Pricing](https://clerk.com/pricing)\n- [Platform](https://clerk.com/platform)\n\n## Company\n\n- [Blog](https://clerk.com/blog)\n- [Careers](https://clerk.com/careers)\n- [Company](https://clerk.com/company)\n- [Contact](https://clerk.com/contact)\n",
+  "robots_policy_snippet": "",
+  "recommendations": [],
+  "meta": {
+    "actor": "llms-txt-agent-packager",
+    "version": "0.1.0",
+    "pages_sampled": 3
+  }
+}

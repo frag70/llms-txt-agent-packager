@@ -1,0 +1,14 @@
+# Resend · Email for developers
+
+> The best way to reach humans instead of spam folders. Deliver transactional and marketing emails at scale.
+
+## API reference
+
+- [Cli](https://resend.com/changelog/cli)
+
+## Company
+
+- [Gdpr](https://resend.com/blog/gdpr)
+- [Soc 2](https://resend.com/blog/soc-2)
+- [Series a](https://resend.com/blog/series-a)
+- [Webhooks](https://resend.com/blog/webhooks)

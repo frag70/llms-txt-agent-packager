@@ -1,0 +1,19 @@
+# Dub - The Modern Link Attribution Platform
+
+> Dub is the modern link attribution platform for short links, conversion tracking, and affiliate programs.
+
+## Product
+
+- [Pricing](https://dub.co/pricing)
+- [Go](https://dub.co/solutions/go)
+- [Php](https://dub.co/solutions/php)
+- [Ruby](https://dub.co/solutions/ruby)
+- [Python](https://dub.co/solutions/python)
+- [Creators](https://dub.co/solutions/creators)
+
+## Company
+
+- [Blog](https://dub.co/blog)
+- [About](https://dub.co/about)
+- [Careers](https://dub.co/careers)
+- [2024](https://dub.co/blog/2024)

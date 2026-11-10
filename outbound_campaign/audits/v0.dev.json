@@ -1,0 +1,244 @@
+{
+  "domain": "v0.dev",
+  "url": "https://v0.dev",
+  "status": "OK",
+  "audited_at": "2026-11-10T23:46:02Z",
+  "duration_ms": 4190,
+  "agent_readiness_score": 51.0,
+  "grade": "C",
+  "dimensions": {
+    "llms_txt": {
+      "max": 30,
+      "score": 0,
+      "detail": "No llms.txt found."
+    },
+    "ai_crawler_access": {
+      "max": 20,
+      "score": 20.0,
+      "detail": "16/16 AI crawlers allowed."
+    },
+    "sitemap": {
+      "max": 10,
+      "score": 10,
+      "detail": "9 URLs discovered."
+    },
+    "structured_data": {
+      "max": 10,
+      "score": 5,
+      "detail": "JSON-LD types: Organization, WebApplication"
+    },
+    "api_discoverability": {
+      "max": 15,
+      "score": 3,
+      "detail": "0 machine-readable endpoint(s) found; docs link: https://v0.dev/api/auth/login"
+    },
+    "content_ingestibility": {
+      "max": 15,
+      "score": 13,
+      "detail": "686 words (~2178 tokens) on the homepage; text/byte ratio 0.65"
+    }
+  },
+  "checks": {
+    "llms_txt": {
+      "found": false,
+      "url": "https://v0.dev/llms.txt",
+      "status": 200,
+      "error": null,
+      "issues": [
+        {
+          "code": "missing",
+          "detail": "No llms.txt published at the site root."
+        }
+      ],
+      "valid": false,
+      "sections": [],
+      "link_count": 0,
+      "h1": null,
+      "summary": null
+    },
+    "llms_full_txt": {
+      "found": false,
+      "url": "https://v0.dev/llms-full.txt",
+      "bytes": 1063707
+    },
+    "robots": {
+      "found": true,
+      "url": "https://v0.dev/robots.txt",
+      "status": 200,
+      "bytes": 138,
+      "ai_crawlers_allowed": 16,
+      "ai_crawlers_blocked": 0,
+      "blocked": [],
+      "policy": [
+        {
+          "bot": "GPTBot",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "OAI-SearchBot",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "ChatGPT-User",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "ClaudeBot",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "Claude-User",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "anthropic-ai",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "PerplexityBot",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "Perplexity-User",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "Google-Extended",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "CCBot",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "Applebot-Extended",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "Bytespider",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "meta-externalagent",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "Amazonbot",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "DuckAssistBot",
+          "access": "allowed",
+          "matched_rule": null
+        },
+        {
+          "bot": "cohere-ai",
+          "access": "allowed",
+          "matched_rule": null
+        }
+      ],
+      "sitemaps_declared": [
+        "https://v0.app/sitemap.xml"
+      ]
+    },
+    "sitemap": {
+      "found": true,
+      "url": "https://v0.app/sitemap.xml",
+      "url_count": 9
+    },
+    "homepage": {
+      "url": "https://v0.dev",
+      "final_url": "https://v0.app/",
+      "status": 200,
+      "ok": true,
+      "elapsed_ms": 1479,
+      "content_type": "text/html; charset=utf-8",
+      "title": "v0 by Vercel - Build Full-Stack Web Apps with AI",
+      "description": "Your collaborative AI assistant to design, iterate, and scale full-stack applications for the web.",
+      "h1": [
+        "What do you want to create?"
+      ],
+      "word_count": 686,
+      "token_estimate": 2178,
+      "html_bytes": 1063105
+    },
+    "structured_data": {
+      "json_ld_blocks": 2,
+      "types": [
+        "Organization",
+        "WebApplication"
+      ],
+      "has_organization": true,
+      "has_website": false,
+      "rich_types": []
+    },
+    "api_discoverability": {
+      "machine_readable_endpoints": [],
+      "api_link_on_homepage": "https://v0.dev/api/auth/login"
+    }
+  },
+  "ai_crawler_policy": {
+    "allowed": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ChatGPT-User",
+      "ClaudeBot",
+      "Claude-User",
+      "anthropic-ai",
+      "PerplexityBot",
+      "Perplexity-User",
+      "Google-Extended",
+      "CCBot",
+      "Applebot-Extended",
+      "Bytespider",
+      "meta-externalagent",
+      "Amazonbot",
+      "DuckAssistBot",
+      "cohere-ai"
+    ],
+    "blocked": [],
+    "unspecified": []
+  },
+  "context_cost": {
+    "homepage_tokens": 2178,
+    "homepage_words": 686,
+    "text_to_byte_ratio": 0.65
+  },
+  "generated_llms_txt": "# v0 by Vercel - Build Full-Stack Web Apps with AI\n\n> Your collaborative AI assistant to design, iterate, and scale full-stack applications for the web.\n\n## Product\n\n- [Pricing](https://v0.app/pricing)\n- [Ai code generator](https://v0.app/solutions/ai-code-generator)\n- [Ai website builder](https://v0.app/solutions/ai-website-builder)\n- [Ai ui design generator](https://v0.app/solutions/ai-ui-design-generator)\n",
+  "robots_policy_snippet": "",
+  "recommendations": [
+    {
+      "id": "publish_llms_txt",
+      "severity": "high",
+      "impact_points": 30,
+      "title": "Publish /llms.txt",
+      "detail": "A generated, spec-compliant file is included in `generated_llms_txt`; host it at https://v0.dev/llms.txt as text/plain."
+    },
+    {
+      "id": "publish_openapi",
+      "severity": "medium",
+      "impact_points": 8,
+      "title": "Publish an OpenAPI description",
+      "detail": "Expose /openapi.json so tool-using agents can call your API without scraping HTML."
+    }
+  ],
+  "meta": {
+    "actor": "llms-txt-agent-packager",
+    "version": "0.1.0",
+    "pages_sampled": 3
+  }
+}

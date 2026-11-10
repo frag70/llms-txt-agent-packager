@@ -1,0 +1,477 @@
+{
+  "domain": "posthog.com",
+  "url": "https://posthog.com",
+  "status": "OK",
+  "audited_at": "2026-11-10T23:45:47Z",
+  "duration_ms": 1633,
+  "agent_readiness_score": 68.0,
+  "grade": "C",
+  "dimensions": {
+    "llms_txt": {
+      "max": 30,
+      "score": 30,
+      "detail": "Valid llms.txt with 4731 links."
+    },
+    "ai_crawler_access": {
+      "max": 20,
+      "score": 0.0,
+      "detail": "0/16 AI crawlers allowed."
+    },
+    "sitemap": {
+      "max": 10,
+      "score": 10,
+      "detail": "2000 URLs discovered."
+    },
+    "structured_data": {
+      "max": 10,
+      "score": 7,
+      "detail": "JSON-LD types: Organization, SoftwareApplication"
+    },
+    "api_discoverability": {
+      "max": 15,
+      "score": 8,
+      "detail": "1 machine-readable endpoint(s) found"
+    },
+    "content_ingestibility": {
+      "max": 15,
+      "score": 13,
+      "detail": "1271 words (~3689 tokens) on the homepage; text/byte ratio 0.69"
+    }
+  },
+  "checks": {
+    "llms_txt": {
+      "found": true,
+      "url": "https://posthog.com/llms.txt",
+      "bytes": 499700,
+      "h1": "PostHog",
+      "summary": "PostHog is the platform for self-driving products. It pairs the full context of your product's data (events, errors, logs, replays, and more) with agents that find problems and ship changes with you. It includes tools for product analytics, session replay, feature flags, A/B testing, error tracking, surveys, AI observability, web analytics, a data warehouse, and more. The fastest way to integrate PostHog is with the setup wizard: `npx @posthog/wizard@latest`",
+      "sections": [
+        {
+          "title": "Instructions for AI Coding Assistants",
+          "links": []
+        },
+        {
+          "title": "Products and tools",
+          "links": [
+            {
+              "title": "Web (app.posthog.com)",
+              "url": "https://app.posthog.com",
+              "note": "Get simple or complex work done without installing anything \u2014 the full surface, next to your data."
+            },
+            {
+              "title": "PostHog Slack app",
+              "url": "https://posthog.com/slack-app.md",
+              "note": "Tag @PostHog in any Slack thread to ship a fix, answer a data question, or edit content \u2013 without leaving the conversation."
+            },
+            {
+              "title": "PostHog Desktop",
+              "url": "https://posthog.com/desktop.md",
+              "note": "The desktop app that uses signals from production data to diagnose issues and generate pull requests, before you know there's a problem."
+            },
+            {
+              "title": "PostHog MCP",
+              "url": "https://posthog.com/docs/model-context-protocol",
+              "note": "A product analyst that lives in your editor, via MCP."
+            },
+            {
+              "title": "Product analytics",
+              "url": "https://posthog.com/product-analytics.md",
+              "note": "The measurement agents use to see what works."
+            },
+            {
+              "title": "Web analytics",
+              "url": "https://posthog.com/web-analytics.md",
+              "note": "The lightweight measurement layer feeding the loop."
+            },
+            {
+              "title": "Session replay",
+              "url": "https://posthog.com/session-replay.md",
+              "note": "A proactive signal \u2014 watch exactly why something happened."
+            },
+            {
+              "title": "Feature flags",
+              "url": "https://posthog.com/feature-flags.md",
+              "note": "How agents roll a change out and roll it back."
+            },
+            {
+              "title": "Experiments",
+              "url": "https://posthog.com/experiments.md",
+              "note": "The evaluation that proves a change worked."
+            },
+            {
+              "title": "Error tracking",
+              "url": "https://posthog.com/error-tracking.md",
+              "note": "The signal that triggers a fix \u2014 every error tied to the user who hit it."
+            }
+          ]
+        },
+        {
+          "title": "Changelog",
+          "links": [
+            {
+              "title": "Changelog (last 12 months, Markdown)",
+              "url": "https://posthog.com/changelog.md",
+              "note": ""
+            },
+            {
+              "title": "Changelog RSS feed",
+              "url": "https://posthog.com/changelog.rss",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "Activity",
+          "links": [
+            {
+              "title": "Activity tab",
+              "url": "https://posthog.com/docs/activity.md",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "Advanced",
+          "links": [
+            {
+              "title": "AWS CloudFront reverse proxy",
+              "url": "https://posthog.com/docs/advanced/proxy/cloudfront.md",
+              "note": ""
+            },
+            {
+              "title": "Caddy reverse proxy",
+              "url": "https://posthog.com/docs/advanced/proxy/caddy.md",
+              "note": ""
+            },
+            {
+              "title": "Cloudflare reverse proxy",
+              "url": "https://posthog.com/docs/advanced/proxy/cloudflare.md",
+              "note": ""
+            },
+            {
+              "title": "Content Security Policy and ingestion domains",
+              "url": "https://posthog.com/docs/advanced/content-security-policy.md",
+              "note": ""
+            },
+            {
+              "title": "Definitions / Infrastructure as code",
+              "url": "https://posthog.com/docs/advanced/infra-as-code.md",
+              "note": ""
+            },
+            {
+              "title": "Deploy a reverse proxy",
+              "url": "https://posthog.com/docs/advanced/proxy.md",
+              "note": ""
+            },
+            {
+              "title": "Kubernetes reverse proxy",
+              "url": "https://posthog.com/docs/advanced/proxy/kubernetes-ingress-controller.md",
+              "note": ""
+            },
+            {
+              "title": "Managed reverse proxy",
+              "url": "https://posthog.com/docs/advanced/proxy/managed-reverse-proxy.md",
+              "note": ""
+            },
+            {
+              "title": "Netlify reverse proxy",
+              "url": "https://posthog.com/docs/advanced/proxy/netlify.md",
+              "note": ""
+            },
+            {
+              "title": "Next.js proxy file reverse proxy",
+              "url": "https://posthog.com/docs/advanced/proxy/nextjs-middleware.md",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "AI Engineering",
+          "links": [
+            {
+              "title": "AI engineering with PostHog",
+              "url": "https://posthog.com/docs/ai-engineering.md",
+              "note": ""
+            },
+            {
+              "title": "AI wizard",
+              "url": "https://posthog.com/docs/ai-engineering/ai-wizard.md",
+              "note": ""
+            },
+            {
+              "title": "Markdown and llms.txt",
+              "url": "https://posthog.com/docs/ai-engineering/markdown-llms-txt.md",
+              "note": ""
+            },
+            {
+              "title": "Sign up with the wizard",
+              "url": "https://posthog.com/docs/ai-engineering/wizard-signup.md",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "Ai Evals",
+          "links": [
+            {
+              "title": "Datasets",
+              "url": "https://posthog.com/docs/ai-evals/datasets.md",
+              "note": ""
+            },
+            {
+              "title": "Evaluations",
+              "url": "https://posthog.com/docs/ai-evals.md",
+              "note": ""
+            },
+            {
+              "title": "Offline evals",
+              "url": "https://posthog.com/docs/ai-evals/offline-evals.md",
+              "note": ""
+            },
+            {
+              "title": "Taggers",
+              "url": "https://posthog.com/docs/ai-evals/taggers.md",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "Ai Observability",
+          "links": [
+            {
+              "title": "Agent skills for AI Observability",
+              "url": "https://posthog.com/docs/ai-observability/skills.md",
+              "note": ""
+            },
+            {
+              "title": "AI event data retention",
+              "url": "https://posthog.com/docs/ai-observability/data-retention.md",
+              "note": ""
+            },
+            {
+              "title": "AI Observability",
+              "url": "https://posthog.com/docs/ai-observability.md",
+              "note": ""
+            },
+            {
+              "title": "AI Observability API",
+              "url": "https://posthog.com/docs/ai-observability/surfaces/api.md",
+              "note": ""
+            },
+            {
+              "title": "AI Observability basics",
+              "url": "https://posthog.com/docs/ai-observability/basics.md",
+              "note": ""
+            },
+            {
+              "title": "AI Observability changelog",
+              "url": "https://posthog.com/docs/ai-observability/changelog.md",
+              "note": ""
+            },
+            {
+              "title": "AI Observability dashboard",
+              "url": "https://posthog.com/docs/ai-observability/dashboard.md",
+              "note": ""
+            },
+            {
+              "title": "AI Observability in PostHog Web",
+              "url": "https://posthog.com/docs/ai-observability/surfaces/web-app.md",
+              "note": ""
+            },
+            {
+              "title": "AI Observability third-party integrations",
+              "url": "https://posthog.com/docs/ai-observability/integrations.md",
+              "note": ""
+            },
+            {
+              "title": "AI Observability troubleshooting",
+              "url": "https://posthog.com/docs/ai-observability/troubleshooting.md",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "link_count": 4731,
+      "issues": [],
+      "valid": true,
+      "sections_truncated": true
+    },
+    "llms_full_txt": {
+      "found": false,
+      "url": "https://posthog.com/llms-full.txt",
+      "bytes": 1409220
+    },
+    "robots": {
+      "found": true,
+      "url": "https://posthog.com/robots.txt",
+      "status": 200,
+      "bytes": 209,
+      "ai_crawlers_allowed": 0,
+      "ai_crawlers_blocked": 0,
+      "blocked": [],
+      "policy": [
+        {
+          "bot": "GPTBot",
+          "access": "unspecified",
+          "matched_rule": null
+        },
+        {
+          "bot": "OAI-SearchBot",
+          "access": "unspecified",
+          "matched_rule": null
+        },
+        {
+          "bot": "ChatGPT-User",
+          "access": "unspecified",
+          "matched_rule": null
+        },
+        {
+          "bot": "ClaudeBot",
+          "access": "unspecified",
+          "matched_rule": null
+        },
+        {
+          "bot": "Claude-User",
+          "access": "unspecified",
+          "matched_rule": null
+        },
+        {
+          "bot": "anthropic-ai",
+          "access": "unspecified",
+          "matched_rule": null
+        },
+        {
+          "bot": "PerplexityBot",
+          "access": "unspecified",
+          "matched_rule": null
+        },
+        {
+          "bot": "Perplexity-User",
+          "access": "unspecified",
+          "matched_rule": null
+        },
+        {
+          "bot": "Google-Extended",
+          "access": "unspecified",
+          "matched_rule": null
+        },
+        {
+          "bot": "CCBot",
+          "access": "unspecified",
+          "matched_rule": null
+        },
+        {
+          "bot": "Applebot-Extended",
+          "access": "unspecified",
+          "matched_rule": null
+        },
+        {
+          "bot": "Bytespider",
+          "access": "unspecified",
+          "matched_rule": null
+        },
+        {
+          "bot": "meta-externalagent",
+          "access": "unspecified",
+          "matched_rule": null
+        },
+        {
+          "bot": "Amazonbot",
+          "access": "unspecified",
+          "matched_rule": null
+        },
+        {
+          "bot": "DuckAssistBot",
+          "access": "unspecified",
+          "matched_rule": null
+        },
+        {
+          "bot": "cohere-ai",
+          "access": "unspecified",
+          "matched_rule": null
+        }
+      ],
+      "sitemaps_declared": [
+        "https://posthog.com/sitemap/sitemap-index.xml"
+      ]
+    },
+    "sitemap": {
+      "found": true,
+      "url": "https://posthog.com/sitemap/sitemap-index.xml",
+      "url_count": 2000
+    },
+    "homepage": {
+      "url": "https://posthog.com",
+      "final_url": "https://posthog.com",
+      "status": 200,
+      "ok": true,
+      "elapsed_ms": 360,
+      "content_type": "text/html; charset=utf-8",
+      "title": "PostHog \u2013 Your product\u2019s context layer",
+      "description": "PostHog automatically diagnoses problems, fixes bugs, and generates pull requests \u2013 all without you having to prompt it.",
+      "h1": [
+        "Your product's context layer"
+      ],
+      "word_count": 1271,
+      "token_estimate": 3689,
+      "html_bytes": 1841767
+    },
+    "structured_data": {
+      "json_ld_blocks": 2,
+      "types": [
+        "Organization",
+        "SoftwareApplication"
+      ],
+      "has_organization": true,
+      "has_website": false,
+      "rich_types": [
+        "SoftwareApplication"
+      ]
+    },
+    "api_discoverability": {
+      "machine_readable_endpoints": [
+        {
+          "path": "/openapi.json",
+          "status": 200,
+          "bytes": 378478
+        }
+      ],
+      "api_link_on_homepage": null
+    }
+  },
+  "ai_crawler_policy": {
+    "allowed": [],
+    "blocked": [],
+    "unspecified": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ChatGPT-User",
+      "ClaudeBot",
+      "Claude-User",
+      "anthropic-ai",
+      "PerplexityBot",
+      "Perplexity-User",
+      "Google-Extended",
+      "CCBot",
+      "Applebot-Extended",
+      "Bytespider",
+      "meta-externalagent",
+      "Amazonbot",
+      "DuckAssistBot",
+      "cohere-ai"
+    ]
+  },
+  "context_cost": {
+    "homepage_tokens": 3689,
+    "homepage_words": 1271,
+    "text_to_byte_ratio": 0.69
+  },
+  "generated_llms_txt": "# PostHog \u2013 Your product\u2019s context layer\n\n> PostHog automatically diagnoses problems, fixes bugs, and generates pull requests \u2013 all without you having to prompt it.\n\n## Documentation\n\n- [Api](https://posthog.com/docs/api)\n- [Cli](https://posthog.com/docs/cli)\n- [Hog](https://posthog.com/docs/hog)\n- [Sql](https://posthog.com/docs/sql)\n- [Data](https://posthog.com/docs/data)\n- [Logs](https://posthog.com/docs/logs)\n- [Tutorials](https://posthog.com/tutorials)\n- [Cmd k](https://posthog.com/docs/cmd-k)\n- [Slack](https://posthog.com/docs/slack)\n- [Tasks](https://posthog.com/docs/tasks)\n- [Guides](https://posthog.com/blog/guides)\n- [Alerts](https://posthog.com/docs/alerts)\n- [Skills](https://posthog.com/docs/skills)\n- [Metrics](https://posthog.com/docs/metrics)\n- [Migrate](https://posthog.com/docs/migrate)\n\n## API reference\n\n- [Api](https://posthog.com/docs/api)\n- [Cli](https://posthog.com/docs/cli)\n- [Flags](https://posthog.com/docs/api/flags)\n- [Oauth](https://posthog.com/docs/api/oauth)\n- [Scopes](https://posthog.com/docs/api/scopes)\n- [Capture](https://posthog.com/docs/api/capture)\n\n## Product\n\n- [Product](https://posthog.com/blog/product)\n- [Product](https://posthog.com/founders/product)\n- [Product](https://posthog.com/blog/tags/product)\n- [Pricing](https://posthog.com/docs/logs/pricing)\n- [Pricing](https://posthog.com/docs/slack/pricing)\n- [Product](https://posthog.com/newsletter/product)\n\n## Company\n\n- [Ai](https://posthog.com/blog/ai)\n- [All](https://posthog.com/blog/all)\n- [Logs](https://posthog.com/blog/logs)\n- [2](https://posthog.com/blog/all/2)\n",
+  "robots_policy_snippet": "",
+  "recommendations": [],
+  "meta": {
+    "actor": "llms-txt-agent-packager",
+    "version": "0.1.0",
+    "pages_sampled": 3
+  }
+}

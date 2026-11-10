@@ -1,0 +1,405 @@
+{
+  "domain": "resend.com",
+  "url": "https://resend.com",
+  "status": "OK",
+  "audited_at": "2026-11-10T23:45:48Z",
+  "duration_ms": 1256,
+  "agent_readiness_score": 88.0,
+  "grade": "A",
+  "dimensions": {
+    "llms_txt": {
+      "max": 30,
+      "score": 30,
+      "detail": "Valid llms.txt with 57 links."
+    },
+    "ai_crawler_access": {
+      "max": 20,
+      "score": 20.0,
+      "detail": "16/16 AI crawlers allowed."
+    },
+    "sitemap": {
+      "max": 10,
+      "score": 10,
+      "detail": "299 URLs discovered."
+    },
+    "structured_data": {
+      "max": 10,
+      "score": 0,
+      "detail": "JSON-LD types: none"
+    },
+    "api_discoverability": {
+      "max": 15,
+      "score": 13,
+      "detail": "3 machine-readable endpoint(s) found"
+    },
+    "content_ingestibility": {
+      "max": 15,
+      "score": 15,
+      "detail": "2490 words (~5001 tokens) on the homepage; text/byte ratio 4.27"
+    }
+  },
+  "checks": {
+    "llms_txt": {
+      "found": true,
+      "url": "https://resend.com/llms.txt",
+      "bytes": 10432,
+      "h1": "Resend",
+      "summary": "Resend is the email API for developers. Send transactional and marketing emails at scale with a simple, modern API.",
+      "sections": [
+        {
+          "title": "When to use Resend",
+          "links": []
+        },
+        {
+          "title": "Setup",
+          "links": [
+            {
+              "title": "Setup guide for agents",
+              "url": "https://resend.com/setup.md",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "Command line tool",
+          "links": [
+            {
+              "title": "Install",
+              "url": "https://resend.com/install.sh",
+              "note": ""
+            },
+            {
+              "title": "Repository",
+              "url": "https://github.com/resend/resend-cli",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "MCP Server",
+          "links": [
+            {
+              "title": "Remote MCP Server",
+              "url": "https://mcp.resend.com/mcp",
+              "note": ""
+            },
+            {
+              "title": "Self-hosted MCP Server",
+              "url": "https://github.com/resend/resend-mcp",
+              "note": ""
+            },
+            {
+              "title": "MCP Discovery",
+              "url": "https://resend.com/.well-known/mcp.json",
+              "note": ""
+            },
+            {
+              "title": "Agent Plugin",
+              "url": "https://github.com/resend/resend-skills",
+              "note": ""
+            },
+            {
+              "title": "Agent Plugins standard",
+              "url": "https://agent-plugins.org",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "Skills",
+          "links": [
+            {
+              "title": "Skills Discovery",
+              "url": "https://resend.com/.well-known/agent-skills/index.json",
+              "note": ""
+            },
+            {
+              "title": "Resend",
+              "url": "https://raw.githubusercontent.com/resend/resend-skills/refs/heads/main/skills/resend/SKILL.md",
+              "note": ""
+            },
+            {
+              "title": "React Email",
+              "url": "https://raw.githubusercontent.com/resend/resend-skills/refs/heads/main/skills/react-email/SKILL.md",
+              "note": ""
+            },
+            {
+              "title": "Email Best Practices",
+              "url": "https://raw.githubusercontent.com/resend/resend-skills/refs/heads/main/skills/email-best-practices/SKILL.md",
+              "note": ""
+            },
+            {
+              "title": "Resend CLI",
+              "url": "https://raw.githubusercontent.com/resend/resend-skills/refs/heads/main/skills/resend-cli/SKILL.md",
+              "note": ""
+            },
+            {
+              "title": "Agent Email Inbox",
+              "url": "https://raw.githubusercontent.com/resend/resend-skills/refs/heads/main/skills/agent-email-inbox/SKILL.md",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "Documentation",
+          "links": [
+            {
+              "title": "Full documentation",
+              "url": "https://resend.com/docs/llms.txt",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "Deliverability",
+          "links": [
+            {
+              "title": "Why are my emails going to spam?",
+              "url": "https://resend.com/docs/knowledge-base/why-are-my-emails-going-to-spam.md",
+              "note": ""
+            },
+            {
+              "title": "New domain going to spam",
+              "url": "https://resend.com/guides/email/new-domain-emails-going-to-spam.md",
+              "note": "why a new domain is held back and how to warm it up"
+            },
+            {
+              "title": "Gmail spam folder",
+              "url": "https://resend.com/guides/email/deliverability/avoid-gmail-spam-folder.md",
+              "note": ""
+            },
+            {
+              "title": "Outlook and Microsoft 365 Junk folder",
+              "url": "https://resend.com/guides/email/deliverability/avoid-outlook-spam-folder.md",
+              "note": ""
+            },
+            {
+              "title": "Yahoo spam folder",
+              "url": "https://resend.com/guides/email/deliverability/avoid-yahoo-spam-folder.md",
+              "note": ""
+            },
+            {
+              "title": "iCloud Junk folder",
+              "url": "https://resend.com/guides/email/deliverability/avoid-icloud-spam-folder.md",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "Support",
+          "links": [
+            {
+              "title": "Support (llms.txt)",
+              "url": "https://resend.com/support/llms.txt",
+              "note": ""
+            },
+            {
+              "title": "Support guide for agents",
+              "url": "https://resend.com/support/agent.md",
+              "note": ""
+            },
+            {
+              "title": "Support (HTML)",
+              "url": "https://resend.com/support",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "link_count": 57,
+      "issues": [],
+      "valid": true,
+      "sections_truncated": true
+    },
+    "llms_full_txt": {
+      "found": true,
+      "url": "https://resend.com/llms-full.txt",
+      "bytes": 10000
+    },
+    "robots": {
+      "found": true,
+      "url": "https://resend.com/robots.txt",
+      "status": 200,
+      "bytes": 143,
+      "ai_crawlers_allowed": 16,
+      "ai_crawlers_blocked": 0,
+      "blocked": [],
+      "policy": [
+        {
+          "bot": "GPTBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "OAI-SearchBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "ChatGPT-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "ClaudeBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Claude-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "anthropic-ai",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "PerplexityBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Perplexity-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Google-Extended",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "CCBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Applebot-Extended",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Bytespider",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "meta-externalagent",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Amazonbot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "DuckAssistBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "cohere-ai",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        }
+      ],
+      "sitemaps_declared": [
+        "https://resend.com/sitemap.xml"
+      ]
+    },
+    "sitemap": {
+      "found": true,
+      "url": "https://resend.com/sitemap.xml",
+      "url_count": 299
+    },
+    "homepage": {
+      "url": "https://resend.com",
+      "final_url": "https://resend.com",
+      "status": 200,
+      "ok": true,
+      "elapsed_ms": 233,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Resend \u00b7 Email for developers",
+      "description": "The best way to reach humans instead of spam folders. Deliver transactional and marketing emails at scale.",
+      "h1": [
+        "Email fordevelopers"
+      ],
+      "word_count": 2490,
+      "token_estimate": 5001,
+      "html_bytes": 583433
+    },
+    "structured_data": {
+      "json_ld_blocks": 0,
+      "types": [],
+      "has_organization": false,
+      "has_website": false,
+      "rich_types": []
+    },
+    "api_discoverability": {
+      "machine_readable_endpoints": [
+        {
+          "path": "/openapi.json",
+          "status": 200,
+          "bytes": 199990
+        },
+        {
+          "path": "/openapi.yaml",
+          "status": 200,
+          "bytes": 143760
+        },
+        {
+          "path": "/.well-known/mcp.json",
+          "status": 200,
+          "bytes": 5020
+        }
+      ],
+      "api_link_on_homepage": null
+    }
+  },
+  "ai_crawler_policy": {
+    "allowed": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ChatGPT-User",
+      "ClaudeBot",
+      "Claude-User",
+      "anthropic-ai",
+      "PerplexityBot",
+      "Perplexity-User",
+      "Google-Extended",
+      "CCBot",
+      "Applebot-Extended",
+      "Bytespider",
+      "meta-externalagent",
+      "Amazonbot",
+      "DuckAssistBot",
+      "cohere-ai"
+    ],
+    "blocked": [],
+    "unspecified": []
+  },
+  "context_cost": {
+    "homepage_tokens": 5001,
+    "homepage_words": 2490,
+    "text_to_byte_ratio": 4.27
+  },
+  "generated_llms_txt": "# Resend \u00b7 Email for developers\n\n> The best way to reach humans instead of spam folders. Deliver transactional and marketing emails at scale.\n\n## API reference\n\n- [Cli](https://resend.com/changelog/cli)\n\n## Company\n\n- [Gdpr](https://resend.com/blog/gdpr)\n- [Soc 2](https://resend.com/blog/soc-2)\n- [Series a](https://resend.com/blog/series-a)\n- [Webhooks](https://resend.com/blog/webhooks)\n",
+  "robots_policy_snippet": "",
+  "recommendations": [
+    {
+      "id": "add_organization_jsonld",
+      "severity": "medium",
+      "impact_points": 5,
+      "title": "Add Organization JSON-LD",
+      "detail": "Entity disambiguation is the strongest predictor of being named correctly in LLM answers."
+    }
+  ],
+  "meta": {
+    "actor": "llms-txt-agent-packager",
+    "version": "0.1.0",
+    "pages_sampled": 3
+  }
+}

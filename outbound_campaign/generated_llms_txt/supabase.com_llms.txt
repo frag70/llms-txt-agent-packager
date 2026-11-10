@@ -1,0 +1,46 @@
+# Supabase
+
+> Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.
+
+## Documentation
+
+- [Ai](https://supabase.com/docs/guides/ai)
+- [Api](https://supabase.com/docs/guides/api)
+- [Auth](https://supabase.com/docs/guides/auth)
+- [Cron](https://supabase.com/docs/guides/cron)
+- [Queues](https://supabase.com/docs/guides/queues)
+- [Graphql](https://supabase.com/docs/guides/graphql)
+- [Storage](https://supabase.com/docs/guides/storage)
+- [Ai tools](https://supabase.com/docs/guides/ai-tools)
+- [Platform](https://supabase.com/docs/guides/platform)
+- [Realtime](https://supabase.com/docs/guides/realtime)
+- [Security](https://supabase.com/docs/guides/security)
+- [Jwts](https://supabase.com/docs/guides/auth/jwts)
+- [Functions](https://supabase.com/docs/guides/functions)
+- [Resources](https://supabase.com/docs/guides/resources)
+- [Users](https://supabase.com/docs/guides/auth/users)
+
+## API reference
+
+- [Cli](https://supabase.com/features/cli)
+- [Api](https://supabase.com/docs/guides/api)
+- [Graphql](https://supabase.com/docs/guides/graphql)
+- [Api](https://supabase.com/docs/guides/queues/api)
+- [Api](https://supabase.com/docs/guides/graphql/api)
+- [Api](https://supabase.com/docs/guides/ai/python/api)
+
+## Product
+
+- [Pricing](https://supabase.com/pricing)
+- [Features](https://supabase.com/features)
+- [Pricing](https://supabase.com/blog/pricing)
+- [Cdn](https://supabase.com/features/cdn)
+- [Cli](https://supabase.com/features/cli)
+- [Vault](https://supabase.com/features/vault)
+
+## Company
+
+- [Blog](https://supabase.com/blog)
+- [Careers](https://supabase.com/careers)
+- [Company](https://supabase.com/company)
+- [Ipv6](https://supabase.com/blog/ipv6)

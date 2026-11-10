@@ -1,0 +1,491 @@
+{
+  "domain": "mintlify.com",
+  "url": "https://mintlify.com",
+  "status": "OK",
+  "audited_at": "2026-11-10T23:45:55Z",
+  "duration_ms": 1560,
+  "agent_readiness_score": 78.0,
+  "grade": "B",
+  "dimensions": {
+    "llms_txt": {
+      "max": 30,
+      "score": 30,
+      "detail": "Valid llms.txt with 43 links."
+    },
+    "ai_crawler_access": {
+      "max": 20,
+      "score": 20.0,
+      "detail": "16/16 AI crawlers allowed."
+    },
+    "sitemap": {
+      "max": 10,
+      "score": 10,
+      "detail": "1430 URLs discovered."
+    },
+    "structured_data": {
+      "max": 10,
+      "score": 0,
+      "detail": "JSON-LD types: none"
+    },
+    "api_discoverability": {
+      "max": 15,
+      "score": 3,
+      "detail": "0 machine-readable endpoint(s) found; docs link: https://www.mintlify.com/docs/api-playground/overview"
+    },
+    "content_ingestibility": {
+      "max": 15,
+      "score": 15,
+      "detail": "1443 words (~3270 tokens) on the homepage; text/byte ratio 3.18"
+    }
+  },
+  "checks": {
+    "llms_txt": {
+      "found": true,
+      "url": "https://mintlify.com/llms.txt",
+      "bytes": 6884,
+      "h1": "Mintlify",
+      "summary": "Mintlify is the knowledge platform built for agents: self-updating documentation for startups, enterprises, and AI agents. This file indexes the markdown version of every page on www.mintlify.com. Append `.md` to any page URL (or send `Accept: text/markdown`) to get its markdown twin.",
+      "sections": [
+        {
+          "title": "Docs",
+          "links": [
+            {
+              "title": "Set up Mintlify",
+              "url": "https://www.mintlify.com/docs/setup.md",
+              "note": "connect an AI agent to Mintlify, or have it create a docs site or base"
+            },
+            {
+              "title": "Documentation index",
+              "url": "https://www.mintlify.com/docs/llms.txt",
+              "note": "llms.txt index of the full product documentation"
+            },
+            {
+              "title": "Documentation home",
+              "url": "https://www.mintlify.com/docs/index.md",
+              "note": "Mintlify product documentation"
+            },
+            {
+              "title": "Quickstart",
+              "url": "https://www.mintlify.com/docs/quickstart.md",
+              "note": "deploy your first documentation site"
+            },
+            {
+              "title": "Full corpus",
+              "url": "https://www.mintlify.com/llms-full.txt",
+              "note": "all marketing pages in one file"
+            },
+            {
+              "title": "Agent skill",
+              "url": "https://www.mintlify.com/skill.md",
+              "note": "operating guide for agents working with Mintlify"
+            }
+          ]
+        },
+        {
+          "title": "Pages",
+          "links": [
+            {
+              "title": "The documentation platform for agents",
+              "url": "https://www.mintlify.com/index.md",
+              "note": "Self-updating documentation for startups, enterprises, and agents."
+            },
+            {
+              "title": "Pricing",
+              "url": "https://www.mintlify.com/pricing.md",
+              "note": "Choose the plan that works for you. From startups to enterprise, find flexible pricing options that scale with your team."
+            },
+            {
+              "title": "Enterprise",
+              "url": "https://www.mintlify.com/enterprise.md",
+              "note": "Scale your documentation with enterprise-grade features."
+            },
+            {
+              "title": "Careers",
+              "url": "https://www.mintlify.com/careers.md",
+              "note": "Join us in our mission to empower builders."
+            },
+            {
+              "title": "Hiring at Mintlify",
+              "url": "https://www.mintlify.com/careers/hiring.md",
+              "note": "How we hire at Mintlify. A fast, realistic process designed to feel like working here."
+            },
+            {
+              "title": "Talk to Sales",
+              "url": "https://www.mintlify.com/contact/sales.md",
+              "note": "Book a 30-minute call with the Mintlify team. Get a review of your docs, a migration plan, and a playbook for agent traffic."
+            },
+            {
+              "title": "Startups",
+              "url": "https://www.mintlify.com/startups.md",
+              "note": "The Mintlify Startup Program gives eligible venture-backed startups and YC alumni 50% off Mintlify Pro for 12 months, with 12 months free for companies in the current YC batch."
+            },
+            {
+              "title": "Migrate your docs to Mintlify",
+              "url": "https://www.mintlify.com/switch.md",
+              "note": "Migrate your documentation to Mintlify from ReadMe, GitBook, Docusaurus, Fern, or any platform. Get migration support and up to 12 months free."
+            },
+            {
+              "title": "Support",
+              "url": "https://www.mintlify.com/support.md",
+              "note": "Get help with Mintlify. Email support, live chat in the dashboard, and self-serve resources. We respond within 2 business days."
+            },
+            {
+              "title": "Wall of Love",
+              "url": "https://www.mintlify.com/wall-of-love.md",
+              "note": "See what others are saying about Mintlify."
+            },
+            {
+              "title": "OSS Program",
+              "url": "https://www.mintlify.com/oss-program.md",
+              "note": "Support for non-commercial open source projects with Mintlify Pro free forever through the OSS program."
+            },
+            {
+              "title": "Mintlify Desktop",
+              "url": "https://www.mintlify.com/desktop.md",
+              "note": "The Mintlify dashboard as a native desktop app, with tabs for every space. Download for macOS, Windows, or Linux."
+            },
+            {
+              "title": "Mintlify Base",
+              "url": "https://www.mintlify.com/base.md",
+              "note": "Base is the internal knowledge base product from Mintlify. Drafts, teamspaces, and private pages for everything your team knows."
+            },
+            {
+              "title": "Build vs Buy",
+              "url": "https://www.mintlify.com/build-vs-buy.md",
+              "note": "Should you build your own documentation platform or buy one? See why the world's top builders chose Mintlify."
+            },
+            {
+              "title": "Events",
+              "url": "https://www.mintlify.com/events.md",
+              "note": "Where Mintlify is speaking, upcoming events, past events and recordings."
+            },
+            {
+              "title": "Data",
+              "url": "https://www.mintlify.com/data.md",
+              "note": "The internet is being read by agents. Real-time data across every site Mintlify powers: agents vs. humans, MCP requests, geography, and the pages agents keep coming back to."
+            },
+            {
+              "title": "Mintlify roadmap",
+              "url": "https://www.mintlify.com/roadmap.md",
+              "note": "A sneak peek at what we're building. Contact sales to learn more about our roadmap and what we can build for your needs."
+            },
+            {
+              "title": "State of Knowledge Report",
+              "url": "https://www.mintlify.com/state-of-knowledge.md",
+              "note": "Our first annual State of Knowledge Report shows how fast agent readership is growing, why it's time to look beyond docs, and what top companies are doing differently."
+            },
+            {
+              "title": "The 2026 State of Knowledge Report",
+              "url": "https://www.mintlify.com/state-of-knowledge/2026.md",
+              "note": "Agents are taking over as knowledge consumers, but few organizations are ready. Read the full 2026 State of Knowledge Report: platform data, a controlled benchmark, and a survey of 329 professionals."
+            },
+            {
+              "title": "Developer Documentation",
+              "url": "https://www.mintlify.com/use-cases/dev-docs.md",
+              "note": "Beautiful docs for developers. Instant answers for the agents they send ahead. Mintlify makes your documentation the fastest path from question to working code."
+            },
+            {
+              "title": "Knowledge Base",
+              "url": "https://www.mintlify.com/use-cases/knowledge-base.md",
+              "note": "Your team's source of truth."
+            },
+            {
+              "title": "API Reference",
+              "url": "https://www.mintlify.com/use-cases/api-reference.md",
+              "note": "Interactive for developers. Structured for agents. Generated from the spec you already maintain, and updated every time it changes."
+            },
+            {
+              "title": "Help Center",
+              "url": "https://www.mintlify.com/use-cases/help-center.md",
+              "note": "Build a beautiful, AI-powered help center with Mintlify."
+            },
+            {
+              "title": "Mintlify for Slack",
+              "url": "https://www.mintlify.com/use-cases/slack-agent.md",
+              "note": "A personal agent for your team's knowledge, in Slack. Answers from your docs, pull requests from threads, and context from the rest of your stack."
+            },
+            {
+              "title": "Documentation for AI Companies",
+              "url": "https://www.mintlify.com/industries/ai.md",
+              "note": "Documentation that keeps pace with weekly ship cycles, optimized for the agents your users are running. Trusted by the labs defining AI\u2014Anthropic, Perplexity, Baseten, and more."
+            }
+          ]
+        },
+        {
+          "title": "Blog",
+          "links": [
+            {
+              "title": "Blog posts index (nested)",
+              "url": "https://www.mintlify.com/blog/llms.txt",
+              "note": "every post with its .md link"
+            },
+            {
+              "title": "Blog listing",
+              "url": "https://www.mintlify.com/blog.md",
+              "note": "markdown twin of the blog page"
+            }
+          ]
+        },
+        {
+          "title": "Library",
+          "links": [
+            {
+              "title": "Library guides index (nested)",
+              "url": "https://www.mintlify.com/library/llms.txt",
+              "note": "every guide with its .md link"
+            },
+            {
+              "title": "Library listing",
+              "url": "https://www.mintlify.com/library.md",
+              "note": "markdown twin of the library page"
+            }
+          ]
+        },
+        {
+          "title": "Customers",
+          "links": [
+            {
+              "title": "Customer stories index (nested)",
+              "url": "https://www.mintlify.com/customers/llms.txt",
+              "note": "every story with its .md link"
+            },
+            {
+              "title": "Customers listing",
+              "url": "https://www.mintlify.com/customers.md",
+              "note": "markdown twin of the customers page"
+            }
+          ]
+        },
+        {
+          "title": "Legal",
+          "links": [
+            {
+              "title": "Privacy Policy",
+              "url": "https://www.mintlify.com/legal/privacy.md",
+              "note": ""
+            },
+            {
+              "title": "Terms of Service",
+              "url": "https://www.mintlify.com/legal/terms.md",
+              "note": ""
+            },
+            {
+              "title": "Third-Party Provider Terms",
+              "url": "https://www.mintlify.com/legal/third-party-provider-terms.md",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "Security",
+          "links": [
+            {
+              "title": "Responsible Disclosure",
+              "url": "https://www.mintlify.com/security/responsible-disclosure.md",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "title": "Optional",
+          "links": [
+            {
+              "title": "Agent Score",
+              "url": "https://www.mintlify.com/score.md",
+              "note": "live ranking of how documentation sites score for AI agents"
+            },
+            {
+              "title": "Sitemap",
+              "url": "https://www.mintlify.com/sitemap.xml",
+              "note": "XML sitemap of the HTML pages"
+            }
+          ]
+        }
+      ],
+      "link_count": 43,
+      "issues": [],
+      "valid": true
+    },
+    "llms_full_txt": {
+      "found": true,
+      "url": "https://mintlify.com/llms-full.txt",
+      "bytes": 140979
+    },
+    "robots": {
+      "found": true,
+      "url": "https://mintlify.com/robots.txt",
+      "status": 200,
+      "bytes": 70,
+      "ai_crawlers_allowed": 16,
+      "ai_crawlers_blocked": 0,
+      "blocked": [],
+      "policy": [
+        {
+          "bot": "GPTBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "OAI-SearchBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "ChatGPT-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "ClaudeBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Claude-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "anthropic-ai",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "PerplexityBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Perplexity-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Google-Extended",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "CCBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Applebot-Extended",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Bytespider",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "meta-externalagent",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Amazonbot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "DuckAssistBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "cohere-ai",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        }
+      ],
+      "sitemaps_declared": [
+        "https://www.mintlify.com/sitemap.xml"
+      ]
+    },
+    "sitemap": {
+      "found": true,
+      "url": "https://www.mintlify.com/sitemap.xml",
+      "url_count": 1430
+    },
+    "homepage": {
+      "url": "https://mintlify.com",
+      "final_url": "https://www.mintlify.com/",
+      "status": 200,
+      "ok": true,
+      "elapsed_ms": 845,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Mintlify - The documentation platform for agents",
+      "description": "Self-updating documentation for startups, enterprises, and agents.",
+      "h1": [
+        "The intelligent documentation platform"
+      ],
+      "word_count": 1443,
+      "token_estimate": 3270,
+      "html_bytes": 454103
+    },
+    "structured_data": {
+      "json_ld_blocks": 0,
+      "types": [],
+      "has_organization": false,
+      "has_website": false,
+      "rich_types": []
+    },
+    "api_discoverability": {
+      "machine_readable_endpoints": [],
+      "api_link_on_homepage": "https://www.mintlify.com/docs/api-playground/overview"
+    }
+  },
+  "ai_crawler_policy": {
+    "allowed": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ChatGPT-User",
+      "ClaudeBot",
+      "Claude-User",
+      "anthropic-ai",
+      "PerplexityBot",
+      "Perplexity-User",
+      "Google-Extended",
+      "CCBot",
+      "Applebot-Extended",
+      "Bytespider",
+      "meta-externalagent",
+      "Amazonbot",
+      "DuckAssistBot",
+      "cohere-ai"
+    ],
+    "blocked": [],
+    "unspecified": []
+  },
+  "context_cost": {
+    "homepage_tokens": 3270,
+    "homepage_words": 1443,
+    "text_to_byte_ratio": 3.18
+  },
+  "generated_llms_txt": "# Mintlify\n\n> Self-updating documentation for startups, enterprises, and agents.\n\n## Documentation\n\n- [Docs](https://www.mintlify.com/docs)\n- [Es](https://www.mintlify.com/docs/es)\n- [Fr](https://www.mintlify.com/docs/fr)\n- [Zh](https://www.mintlify.com/docs/zh)\n- [Cli](https://www.mintlify.com/docs/cli)\n- [Base](https://www.mintlify.com/docs/base)\n- [Agent](https://www.mintlify.com/docs/agent)\n- [Editor](https://www.mintlify.com/docs/editor)\n- [Cli](https://www.mintlify.com/docs/es/cli)\n- [Cli](https://www.mintlify.com/docs/fr/cli)\n- [Guides](https://www.mintlify.com/docs/guides)\n- [Cli](https://www.mintlify.com/docs/zh/cli)\n- [Credits](https://www.mintlify.com/docs/credits)\n- [Desktop](https://www.mintlify.com/docs/desktop)\n- [Base](https://www.mintlify.com/docs/es/base)\n\n## API reference\n\n- [Cli](https://www.mintlify.com/docs/cli)\n- [Cli](https://www.mintlify.com/docs/es/cli)\n- [Cli](https://www.mintlify.com/docs/fr/cli)\n- [Cli](https://www.mintlify.com/docs/zh/cli)\n- [Install](https://www.mintlify.com/docs/cli/install)\n- [Preview](https://www.mintlify.com/docs/cli/preview)\n\n## Product\n\n- [Pricing](https://www.mintlify.com/pricing)\n- [Dev docs](https://www.mintlify.com/use-cases/dev-docs)\n- [Use cases](https://www.mintlify.com/docs/agent/use-cases)\n- [Help center](https://www.mintlify.com/use-cases/help-center)\n- [Slack agent](https://www.mintlify.com/use-cases/slack-agent)\n- [Use cases](https://www.mintlify.com/docs/es/agent/use-cases)\n\n## Company\n\n- [Blog](https://www.mintlify.com/blog)\n- [Careers](https://www.mintlify.com/careers)\n- [Chat](https://www.mintlify.com/blog/chat)\n- [Mcpt](https://www.mintlify.com/blog/mcpt)\n",
+  "robots_policy_snippet": "",
+  "recommendations": [
+    {
+      "id": "publish_openapi",
+      "severity": "medium",
+      "impact_points": 8,
+      "title": "Publish an OpenAPI description",
+      "detail": "Expose /openapi.json so tool-using agents can call your API without scraping HTML."
+    },
+    {
+      "id": "add_organization_jsonld",
+      "severity": "medium",
+      "impact_points": 5,
+      "title": "Add Organization JSON-LD",
+      "detail": "Entity disambiguation is the strongest predictor of being named correctly in LLM answers."
+    }
+  ],
+  "meta": {
+    "actor": "llms-txt-agent-packager",
+    "version": "0.1.0",
+    "pages_sampled": 3
+  }
+}

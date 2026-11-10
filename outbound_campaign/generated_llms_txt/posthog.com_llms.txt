@@ -1,0 +1,46 @@
+# PostHog – Your product’s context layer
+
+> PostHog automatically diagnoses problems, fixes bugs, and generates pull requests – all without you having to prompt it.
+
+## Documentation
+
+- [Api](https://posthog.com/docs/api)
+- [Cli](https://posthog.com/docs/cli)
+- [Hog](https://posthog.com/docs/hog)
+- [Sql](https://posthog.com/docs/sql)
+- [Data](https://posthog.com/docs/data)
+- [Logs](https://posthog.com/docs/logs)
+- [Tutorials](https://posthog.com/tutorials)
+- [Cmd k](https://posthog.com/docs/cmd-k)
+- [Slack](https://posthog.com/docs/slack)
+- [Tasks](https://posthog.com/docs/tasks)
+- [Guides](https://posthog.com/blog/guides)
+- [Alerts](https://posthog.com/docs/alerts)
+- [Skills](https://posthog.com/docs/skills)
+- [Metrics](https://posthog.com/docs/metrics)
+- [Migrate](https://posthog.com/docs/migrate)
+
+## API reference
+
+- [Api](https://posthog.com/docs/api)
+- [Cli](https://posthog.com/docs/cli)
+- [Flags](https://posthog.com/docs/api/flags)
+- [Oauth](https://posthog.com/docs/api/oauth)
+- [Scopes](https://posthog.com/docs/api/scopes)
+- [Capture](https://posthog.com/docs/api/capture)
+
+## Product
+
+- [Product](https://posthog.com/blog/product)
+- [Product](https://posthog.com/founders/product)
+- [Product](https://posthog.com/blog/tags/product)
+- [Pricing](https://posthog.com/docs/logs/pricing)
+- [Pricing](https://posthog.com/docs/slack/pricing)
+- [Product](https://posthog.com/newsletter/product)
+
+## Company
+
+- [Ai](https://posthog.com/blog/ai)
+- [All](https://posthog.com/blog/all)
+- [Logs](https://posthog.com/blog/logs)
+- [2](https://posthog.com/blog/all/2)

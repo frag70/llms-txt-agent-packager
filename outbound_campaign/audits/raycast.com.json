@@ -1,0 +1,249 @@
+{
+  "domain": "raycast.com",
+  "url": "https://raycast.com",
+  "status": "OK",
+  "audited_at": "2026-11-10T23:45:58Z",
+  "duration_ms": 2793,
+  "agent_readiness_score": 48.0,
+  "grade": "D",
+  "dimensions": {
+    "llms_txt": {
+      "max": 30,
+      "score": 0,
+      "detail": "No llms.txt found."
+    },
+    "ai_crawler_access": {
+      "max": 20,
+      "score": 20.0,
+      "detail": "16/16 AI crawlers allowed."
+    },
+    "sitemap": {
+      "max": 10,
+      "score": 10,
+      "detail": "98 URLs discovered."
+    },
+    "structured_data": {
+      "max": 10,
+      "score": 0,
+      "detail": "JSON-LD types: none"
+    },
+    "api_discoverability": {
+      "max": 15,
+      "score": 3,
+      "detail": "0 machine-readable endpoint(s) found; docs link: https://raycast.com/developers"
+    },
+    "content_ingestibility": {
+      "max": 15,
+      "score": 15,
+      "detail": "1520 words (~3065 tokens) on the homepage; text/byte ratio 4.35"
+    }
+  },
+  "checks": {
+    "llms_txt": {
+      "found": false,
+      "url": "https://raycast.com/llms.txt",
+      "status": 404,
+      "error": null,
+      "issues": [
+        {
+          "code": "missing",
+          "detail": "No llms.txt published at the site root."
+        }
+      ],
+      "valid": false,
+      "sections": [],
+      "link_count": 0,
+      "h1": null,
+      "summary": null
+    },
+    "llms_full_txt": {
+      "found": false,
+      "url": "https://raycast.com/llms-full.txt",
+      "bytes": 19128
+    },
+    "robots": {
+      "found": true,
+      "url": "https://raycast.com/robots.txt",
+      "status": 200,
+      "bytes": 170,
+      "ai_crawlers_allowed": 16,
+      "ai_crawlers_blocked": 0,
+      "blocked": [],
+      "policy": [
+        {
+          "bot": "GPTBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "OAI-SearchBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "ChatGPT-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "ClaudeBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Claude-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "anthropic-ai",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "PerplexityBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Perplexity-User",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Google-Extended",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "CCBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Applebot-Extended",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Bytespider",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "meta-externalagent",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "Amazonbot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "DuckAssistBot",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        },
+        {
+          "bot": "cohere-ai",
+          "access": "allowed",
+          "matched_rule": "Allow: /"
+        }
+      ],
+      "sitemaps_declared": [
+        "https://www.raycast.com/sitemap.xml"
+      ]
+    },
+    "sitemap": {
+      "found": true,
+      "url": "https://www.raycast.com/sitemap.xml",
+      "url_count": 98
+    },
+    "homepage": {
+      "url": "https://raycast.com",
+      "final_url": "https://www.raycast.com/",
+      "status": 200,
+      "ok": true,
+      "elapsed_ms": 1088,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Raycast - Your shortcut to everything",
+      "description": "A collection of powerful productivity tools all within an extendable launcher.",
+      "h1": [
+        "Your shortcut to everything.",
+        "Meeting notes"
+      ],
+      "word_count": 1520,
+      "token_estimate": 3065,
+      "html_bytes": 349411
+    },
+    "structured_data": {
+      "json_ld_blocks": 0,
+      "types": [],
+      "has_organization": false,
+      "has_website": false,
+      "rich_types": []
+    },
+    "api_discoverability": {
+      "machine_readable_endpoints": [],
+      "api_link_on_homepage": "https://raycast.com/developers"
+    }
+  },
+  "ai_crawler_policy": {
+    "allowed": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ChatGPT-User",
+      "ClaudeBot",
+      "Claude-User",
+      "anthropic-ai",
+      "PerplexityBot",
+      "Perplexity-User",
+      "Google-Extended",
+      "CCBot",
+      "Applebot-Extended",
+      "Bytespider",
+      "meta-externalagent",
+      "Amazonbot",
+      "DuckAssistBot",
+      "cohere-ai"
+    ],
+    "blocked": [],
+    "unspecified": []
+  },
+  "context_cost": {
+    "homepage_tokens": 3065,
+    "homepage_words": 1520,
+    "text_to_byte_ratio": 4.35
+  },
+  "generated_llms_txt": "# Raycast - Your shortcut to everything\n\n> A collection of powerful productivity tools all within an extendable launcher.\n\n## Product\n\n- [Pricing](https://www.raycast.com/pricing)\n\n## Company\n\n- [Blog](https://www.raycast.com/blog)\n- [Careers](https://www.raycast.com/careers)\n- [Feedback](https://www.raycast.com/blog/feedback)\n- [Series a](https://www.raycast.com/blog/series-a)\n",
+  "robots_policy_snippet": "",
+  "recommendations": [
+    {
+      "id": "publish_llms_txt",
+      "severity": "high",
+      "impact_points": 30,
+      "title": "Publish /llms.txt",
+      "detail": "A generated, spec-compliant file is included in `generated_llms_txt`; host it at https://raycast.com/llms.txt as text/plain."
+    },
+    {
+      "id": "publish_openapi",
+      "severity": "medium",
+      "impact_points": 8,
+      "title": "Publish an OpenAPI description",
+      "detail": "Expose /openapi.json so tool-using agents can call your API without scraping HTML."
+    },
+    {
+      "id": "add_organization_jsonld",
+      "severity": "medium",
+      "impact_points": 5,
+      "title": "Add Organization JSON-LD",
+      "detail": "Entity disambiguation is the strongest predictor of being named correctly in LLM answers."
+    }
+  ],
+  "meta": {
+    "actor": "llms-txt-agent-packager",
+    "version": "0.1.0",
+    "pages_sampled": 3
+  }
+}
