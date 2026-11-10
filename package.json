@@ -1,0 +1,12 @@
+{
+  "name": "@frag70/llms-txt-agent-packager",
+  "version": "0.1.0",
+  "description": "MCP server auditing website AI agent readiness and generating production-ready llms.txt files",
+  "main": "mcp_server.py",
+  "bin": {
+    "llms-txt-mcp": "./mcp_server.py"
+  },
+  "keywords": ["mcp", "llms.txt", "ai-agents", "crawler-audit", "apify"],
+  "author": "Thomas Fragrante",
+  "license": "Apache-2.0"
+}
