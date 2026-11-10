@@ -102,7 +102,7 @@ def deploy_to_apify(token: str):
                 "title": ACTOR_TITLE,
                 "description": ACTOR_DESC,
                 "restartOnError": False,
-                "isPublic": True,
+                "isPublic": False,
             }
             res = api_call("actors", token, method="POST", data=payload)
             actor_id = res.get("data", {}).get("id")
